@@ -1,0 +1,351 @@
+<title>AI 日報 · 2026-07-09</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--paper:#F7F8F5;--card:#FFFFFF;--ink:#1B2A2F;--muted:#5E6E6A;--jade:#0E7C66;--jade-d:#0A5C4C;--line:#DCE3DA}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"PingFang HK","PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;line-height:1.6}
+.serif{font-family:"Songti TC","STSong","Noto Serif TC","PMingLiU",serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+/* hero */
+header{border-top:4px solid var(--jade);background:var(--card);border-bottom:1px solid var(--line)}
+.mast{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:26px 0 6px}
+.mast h1{font-family:"Songti TC","STSong","Noto Serif TC","PMingLiU",serif;font-size:clamp(30px,5vw,42px);margin:0;letter-spacing:.06em}
+.mast h1 span{color:var(--jade)}
+.tag{font-size:12px;letter-spacing:.28em;color:var(--muted);text-transform:uppercase}
+.dateline{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:0 0 18px;color:var(--muted);font-size:14px}
+.dateline b{color:var(--ink);font-weight:600}
+#share{border:1px solid var(--jade);background:var(--jade);color:#fff;font:inherit;font-size:13px;padding:7px 18px;border-radius:4px;cursor:pointer}
+#share:hover{background:var(--jade-d)}
+#share:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:26px}
+.stat{background:var(--card);text-align:center;padding:14px 4px;text-decoration:none;color:var(--ink)}
+.stat b{display:block;font-size:26px;color:var(--jade);font-variant-numeric:tabular-nums;font-family:"Songti TC","Noto Serif TC",serif}
+.stat span{font-size:12px;color:var(--muted)}
+.stat:hover{background:#EFF4EF}
+/* nav */
+nav{position:sticky;top:0;z-index:5;background:rgba(247,248,245,.95);backdrop-filter:blur(4px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 20px}
+nav a{white-space:nowrap;font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--card);padding:5px 12px;border-radius:99px}
+nav a i{font-style:normal;color:var(--jade);margin-left:5px;font-variant-numeric:tabular-nums}
+nav a:hover{border-color:var(--jade);color:var(--jade-d)}
+/* sections */
+section{scroll-margin-top:64px;margin:34px 0}
+h2{font-family:"Songti TC","STSong","Noto Serif TC","PMingLiU",serif;font-size:22px;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:10px}
+h2 em{font-style:normal;font-size:13px;color:var(--muted);font-family:"PingFang HK","Microsoft JhengHei",sans-serif;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.ctop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.no{font-family:"Songti TC","Noto Serif TC",serif;font-size:20px;color:var(--jade);font-variant-numeric:tabular-nums}
+.chips{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.chip{font-size:11px;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.chip.src{border:1px solid var(--line);color:var(--muted)}
+.chip.mkt{color:#fff}
+.mkt.intl{background:#2F5FA8}.mkt.hk{background:#8A2E4E}.mkt.cn{background:#B04A2F}.mkt.tw{background:#6E6428}
+.card h3{margin:0;font-size:16.5px;line-height:1.45;text-wrap:balance}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--jade-d);text-decoration:underline}
+.card h3 a:focus-visible{outline:2px solid var(--jade);outline-offset:2px}
+.sum{margin:0;font-size:14px;color:#38484C;flex:1}
+.why{margin:0;font-size:13px;line-height:1.55;color:var(--jade-d);background:#EDF4F0;border-left:3px solid var(--jade);padding:6px 10px;border-radius:0 4px 4px 0}
+.why b{display:inline-block;font-size:11px;font-weight:600;color:#fff;background:var(--jade);border-radius:3px;padding:0 6px;margin-right:7px;vertical-align:1px}
+.cfoot{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.more{color:var(--jade);text-decoration:none;font-weight:500}
+.more:hover{color:var(--jade-d);text-decoration:underline}
+/* footer */
+footer{border-top:1px solid var(--line);margin-top:44px;padding:22px 0 40px;font-size:13px;color:var(--muted)}
+footer b{color:var(--ink)}
+#toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:9px 20px;border-radius:6px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+#toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+#sharebox{display:none;gap:8px;align-items:center;padding:0 0 16px}
+#sharebox.on{display:flex}
+#sharebox input{flex:1;font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--jade);border-radius:4px;color:var(--ink);background:#fff;min-width:0}
+#sharebox span{font-size:12px;color:var(--muted);white-space:nowrap}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.stats .stat:first-child{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<header><div class="wrap">
+<div class="mast"><h1>AI<span>・</span>日報</h1><span class="tag">AI Daily Briefing</span></div>
+<div class="dateline"><span><b>2026年7月9日 · 星期四</b>　·　今日精選 <b>37</b> 條　·　國際／香港／中國／台灣</span><button id="share">分享俾朋友</button></div>
+<div id="sharebox"><span>長按/全選複製：</span><input type="text" readonly value="https://carriehw.github.io/ai-daily/"></div>
+<div class="stats"><a class="stat" href="#sec0"><b>10</b><span>模型發布/更新</span></a><a class="stat" href="#sec1"><b>7</b><span>產品發布/更新</span></a><a class="stat" href="#sec2"><b>13</b><span>行業動態</span></a><a class="stat" href="#sec3"><b>4</b><span>論文研究</span></a><a class="stat" href="#sec4"><b>3</b><span>技巧與觀點</span></a></div>
+</div></header>
+<nav><div class="wrap"><a href="#sec0">模型發布/更新<i>10</i></a><a href="#sec1">產品發布/更新<i>7</i></a><a href="#sec2">行業動態<i>13</i></a><a href="#sec3">論文研究<i>4</i></a><a href="#sec4">技巧與觀點<i>3</i></a></div></nav>
+<main class="wrap">
+<section id="sec0"><h2>模型發布/更新<em>10 條</em></h2><div class="grid"><article class="card">
+<div class="ctop"><span class="no">01</span><span class="chips"><span class="chip src">Anthropic</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://releasebot.io/updates/anthropic/claude" target="_blank" rel="noopener noreferrer">Claude Sonnet 5 發布，成 Free/Pro 預設模型</a></h3>
+<p class="sum">Anthropic 推出最強 Sonnet，效能逼近 Opus 4.8，原生 1M token 脈絡窗，agentic coding benchmark 達 63.2%（Sonnet 4.6 為 58.1%）。促銷價 $2/$10 每百萬 token 至 8 月 31 日。</p>
+<p class="why"><b>點解重要</b>平價強模型即學即用，Claude Code 用家荷包直接受惠</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://releasebot.io/updates/anthropic/claude" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">02</span><span class="chips"><span class="chip src">CNBC</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html" target="_blank" rel="noopener noreferrer">OpenAI 宣布 GPT-5.6 Sol/Terra/Luna 7 月 9 日公開發布</a></h3>
+<p class="sum">GPT-5.6 三個等級模型結束政府限制，7 月 9 日全面公開。Sol 為旗艦（$5/$30 每百萬 token），Terra 平衡，Luna 最快最平，主打 coding、科學同網絡安全。</p>
+<p class="why"><b>點解重要</b>新一代旗艦落地，API 開發者即刻用得，影響美股 AI 板塊</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">03</span><span class="chips"><span class="chip src">smol.ai / Artificial Analysis</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://x.ai/news/grok-4-5" target="_blank" rel="noopener noreferrer">xAI 聯手 Cursor 推 Grok 4.5，$2/$6 定價殺入 coding 賽道</a></h3>
+<p class="sum">xAI 發布首個專為 coding 同 agent 訓練嘅 Grok 4.5，與 Cursor 聯合打造，定價 $2/$6 每百萬 token。Artificial Analysis 排名第四，僅次 Fable 5、GPT-5.5、Opus 4.8，主打 frontier 質素但成本大平。</p>
+<p class="why"><b>點解重要</b>frontier 質素低價傾銷，開發者即慳成本，加劇模型割價戰</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://x.ai/news/grok-4-5" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">04</span><span class="chips"><span class="chip src">BigGo Finance</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a" target="_blank" rel="noopener noreferrer">Google Gemini 3.5 Pro 押後至 7 月 17 日，架構重建</a></h3>
+<p class="sum">Google DeepMind 放棄 Gemini 2.5 Pro 架構全面重新設計，押後至 7 月 17 日。新增 2M token 脈絡、Deep Think 推理層同自主工作流，主攻數學推理、SVG 生成同圖像質素。</p>
+<p class="why"><b>點解重要</b>Google 追趕 GPT-5.6 同 Fable 5，延誤反映競爭壓力，關注 Alphabet</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">05</span><span class="chips"><span class="chip src">VentureBeat</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost" target="_blank" rel="noopener noreferrer">Z.ai GLM-5.2 成 Vercel 採用增速最快模型</a></h3>
+<p class="sum">GLM-5.2 推出首週日 token 量暴增約 27 倍、客戶數增約 80 倍，OpenRouter 排名超越 Anthropic，Artificial Analysis 智能榜第五。coding 能力接近美系旗艦，成本僅六分一。</p>
+<p class="why"><b>點解重要</b>開源平價 coding 模型崛起，開發者即慳錢，改寫全球競爭格局</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">06</span><span class="chips"><span class="chip src">AI工具寶箱 / 科極網</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://www.aitoollab.cn/articles/kimi-k3-moonshot-2-5t-parameters-launch-202607/" target="_blank" rel="noopener noreferrer">月之暗面 Kimi K3 傳本月發布，參數衝 2.5 萬億超越 DeepSeek V4</a></h3>
+<p class="sum">Kimi K3 確認 7 月內發布，MoE 架構、2.5 萬億參數，規模超 DeepSeek V4 Pro 及百度文心 5.0，配 1M 超長上下文同原生多模態；公司估值升至 315 億美元、ARR 破 3 億美元。</p>
+<p class="why"><b>點解重要</b>國產最大參數模型將面世，AI 競賽白熱化風向標</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.aitoollab.cn/articles/kimi-k3-moonshot-2-5t-parameters-launch-202607/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">07</span><span class="chips"><span class="chip src">科學網 / DeepSeek技術社區</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://deepseek.csdn.net/6a43860c662f9a54cb86daed.html" target="_blank" rel="noopener noreferrer">DeepSeek V4 正式版 7 月中上線，引入峰谷定價高峰 API 價翻倍</a></h3>
+<p class="sum">DeepSeek 公布 V4 正式版 7 月中旬上線，分 Pro（16 萬億參數）同 Flash（2840 億）兩版、支援 1M 上下文；同步推峰谷定價，每日高峰時段（9-12、14-18 時）API 價 double。</p>
+<p class="why"><b>點解重要</b>峰谷定價即影響 API 成本，避開高峰時段可慳一半</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://deepseek.csdn.net/6a43860c662f9a54cb86daed.html" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">08</span><span class="chips"><span class="chip src">阿里雲開發者社區</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://developer.aliyun.com/article/1740777" target="_blank" rel="noopener noreferrer">阿里通義 Qwen3.7 系列旗艦，智能體可跑 35 小時超長任務</a></h3>
+<p class="sum">阿里 Qwen3.7 系列包括 Max（萬億參數）同 Plus（密集模型），主打全域思考模式統一文本/圖像/代碼推理鏈；智能體可自主完成 35 小時超長周期任務，推理速度提升 10 倍。</p>
+<p class="why"><b>點解重要</b>阿里雲（9988）AI 能力升級，港股阿里估值催化</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://developer.aliyun.com/article/1740777" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">09</span><span class="chips"><span class="chip src">機器之心 / bilibili AI早報</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://www.bilibili.com/video/BV1oMJ76bE73/" target="_blank" rel="noopener noreferrer">MiniMax 開放 M3 權重，428B 智能體模型支援 Computer Use</a></h3>
+<p class="sum">MiniMax 正式開放 M3 權重，428B 參數（A23B 激活）、支援最高 1M 上下文、原生多模態；具備程式設計、智能體協作同 Computer Use 能力，同智譜一齊納入恒科成分股。</p>
+<p class="why"><b>點解重要</b>MiniMax 入恒科成分，港股新 AI 標的浮面</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.bilibili.com/video/BV1oMJ76bE73/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">10</span><span class="chips"><span class="chip src">smol.ai / Cognition</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://x.com/cognition/status/2074882968770728416" target="_blank" rel="noopener noreferrer">Cognition SWE-1.7 發布，證 RL 後訓練天花板未到</a></h3>
+<p class="sum">Cognition 基於 Kimi K2.7 訓練出最強 coding 模型 SWE-1.7，FrontierCode 主集 42.3%、每任務 $1.97，喺 Devin 以 1000 tok/s 運行，並喺 Cerebras 推 Lightning 高速模式；模型學識喺長任務自我壓縮上下文。</p>
+<p class="why"><b>點解重要</b>開源底座＋RL 後訓練仍有空間，$/任務 比 $/token 更關鍵</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://x.com/cognition/status/2074882968770728416" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article></div></section>
+<section id="sec1"><h2>產品發布/更新<em>7 條</em></h2><div class="grid"><article class="card">
+<div class="ctop"><span class="no">11</span><span class="chips"><span class="chip src">Anthropic</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://blog.mean.ceo/anthropic-claude-news-july-2026/" target="_blank" rel="noopener noreferrer">Anthropic Fable 5 轉用量計費，存取需政府身份驗證</a></h3>
+<p class="sum">由 7 月 8 日起 Fable 5 變成付費 add-on，全部 Claude 用戶都要買 credit。Pro 用戶 $10/百萬 input、$50/百萬 output。因應出口管制，Fable 5 存取需政府身份證件驗證。</p>
+<p class="why"><b>點解重要</b>頂級模型收費模式改變，直接影響荷包，反映出口管制收緊</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://blog.mean.ceo/anthropic-claude-news-july-2026/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">12</span><span class="chips"><span class="chip src">OpenAI</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noopener noreferrer">OpenAI 推出 GPT-Live 全雙工語音模型</a></h3>
+<p class="sum">OpenAI 發布 GPT-Live，採用全雙工架構，可同時聆聽同講嘢，識得即時來回對答，複雜問題會交後台前沿模型處理。已向全球 iOS/Android/網頁版 ChatGPT 推送。</p>
+<p class="why"><b>點解重要</b>語音 AI 體驗大躍進即刻試得，語音助手賽道升溫</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://openai.com/index/introducing-gpt-live/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">13</span><span class="chips"><span class="chip src">Anthropic</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://releasebot.io/updates/anthropic/claude" target="_blank" rel="noopener noreferrer">Claude Cowork 擴展至網頁同手機版</a></h3>
+<p class="sum">Claude Cowork 除桌面外新增網頁同手機版，由 Max plan 起分階段推出。session 遠端運行（beta），檔案存喺 Claude 帳戶，關機後仍繼續工作，排程任務無需任何裝置在線。</p>
+<p class="why"><b>點解重要</b>AI agent 遠端自動幹活，隨時隨地即用，提升生產力</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://releasebot.io/updates/anthropic/claude" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">14</span><span class="chips"><span class="chip src">Anthropic</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.anthropic.com/news/claude-science-ai-workbench" target="_blank" rel="noopener noreferrer">Anthropic 推出 Claude Science 科研工作台</a></h3>
+<p class="sum">Anthropic 發布 Claude Science，整合研究員最常用嘅工具同套件，產出可審計成果，並提供彈性運算資源存取，覆蓋基因組、材料科學、氣候建模等領域。</p>
+<p class="why"><b>點解重要</b>AI 攻入科研市場，開拓新收入來源，垂直應用擴張</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.anthropic.com/news/claude-science-ai-workbench" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">15</span><span class="chips"><span class="chip src">OSCHINA</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://www.oschina.net/news/457565" target="_blank" rel="noopener noreferrer">月之暗面開源 Kimi K2.7 Code，Token 消耗較 K2.6 降 30%</a></h3>
+<p class="sum">月之暗面發布並開源 Kimi K2.7 Code 專攻程式設計，長上下文編碼、指令跟隨同長程任務表現大升，平均 Token 消耗較 K2.6 減 30%；6 倍速高速版隨後上線。</p>
+<p class="why"><b>點解重要</b>Coding 即學即用，Token 省 30% 即慳 API 開支</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.oschina.net/news/457565" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">16</span><span class="chips"><span class="chip src">博客園</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://www.cnblogs.com/jzssuanfa/p/20098883" target="_blank" rel="noopener noreferrer">字節豆包更新 Doubao-Seed-2.0，Coding 套餐加入戰局</a></h3>
+<p class="sum">字節豆包更新通用模型 Doubao-Seed-2.0 Lite/Mini 同推理模型 Pro；火山方舟推出 Coding Plan 訂閱（Lite 40 蚊、Pro 200 蚊/月），支援模型數最多，同通義、元寶燒錢搶用戶。</p>
+<p class="why"><b>點解重要</b>國產 Coding 套餐割價戰，開發者揀 platform 參考</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.cnblogs.com/jzssuanfa/p/20098883" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">17</span><span class="chips"><span class="chip src">smol.ai</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://x.com/ahejlsberg/status/2074899956511760806" target="_blank" rel="noopener noreferrer">TypeScript 7 正式版推出，原生移植快 10 倍</a></h3>
+<p class="sum">TypeScript 7 GA 發布，核心編譯器由原生語言重寫，運行速度較舊版快約 10 倍，大型專案編譯、型別檢查同 IDE 反應顯著提速。</p>
+<p class="why"><b>點解重要</b>前端開發者即刻受惠，大專案編譯提速即提生產力</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://x.com/ahejlsberg/status/2074899956511760806" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article></div></section>
+<section id="sec2"><h2>行業動態<em>13 條</em></h2><div class="grid"><article class="card">
+<div class="ctop"><span class="no">18</span><span class="chips"><span class="chip src">Build Fast with AI</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026" target="_blank" rel="noopener noreferrer">美國白宮公布前沿模型監管框架</a></h3>
+<p class="sum">白宮公布機密 benchmark，界定邊啲模型屬「受管前沿模型」，觸發 30 日發布前自願審查窗口，同時列明可信早期夥伴機制同出口管制國際准入規則。</p>
+<p class="why"><b>點解重要</b>2023 年後最大 AI 監管事件，影響全行業發布節奏同估值</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">19</span><span class="chips"><span class="chip src">CNBC</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026" target="_blank" rel="noopener noreferrer">中國 AI 模型佔美國企業 API 用量 30-46%</a></h3>
+<p class="sum">CNBC 調查證實，中國 AI 模型已佔流經美國開發者平台企業 API token 用量三至四成半。開源中國模型比 Anthropic、OpenAI 旗艦平 60-90%。</p>
+<p class="why"><b>點解重要</b>低價中國模型蠶食市場，威脅美系 AI 定價權，美股敲警號</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">20</span><span class="chips"><span class="chip src">Crunchbase News</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/" target="_blank" rel="noopener noreferrer">Anthropic Q2 融資 650 億美元，估值 9650 億</a></h3>
+<p class="sum">Anthropic 成第二季最大融資者，650 億美元、投後估值 9650 億。包括 5 月 Altimeter、Sequoia 等領投嘅 500 億，加 Amazon 50 億同 Google 100 億企業輪。</p>
+<p class="why"><b>點解重要</b>估值逼近萬億美元，反映 AI 一級市場狂熱，關注上市時間表</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">21</span><span class="chips"><span class="chip src">Crunchbase News</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/" target="_blank" rel="noopener noreferrer">SpaceX 上市後擬 600 億美元收購 Cursor 母公司</a></h3>
+<p class="sum">第二季發生史上最大創投 IPO 同最大初創收購：SpaceX 以 1.77 萬億估值上市集資 750 億，一週後確認擬以 600 億美元收購 AI coding 工具 Cursor 母公司 Anysphere。</p>
+<p class="why"><b>點解重要</b>AI coding 工具估值狂飆，天價收購改寫開發者工具版圖</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">22</span><span class="chips"><span class="chip src">NVIDIA</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer" target="_blank" rel="noopener noreferrer">NVIDIA Vera Rubin 平台全面投產</a></h3>
+<p class="sum">NVIDIA Rubin 進入全面生產，六款新晶片組成 AI 超級電腦，下半年由夥伴供貨。AWS、Google Cloud、微軟、OCI 同 CoreWeave 等率先部署，微軟用於 Fairwater 超級工廠。</p>
+<p class="why"><b>點解重要</b>算力供應鏈核心，Rubin 出貨牽動 NVDA 同 AI 基建股走勢</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">23</span><span class="chips"><span class="chip src">Crunchbase News</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/" target="_blank" rel="noopener noreferrer">上半年全球創投融資破 5100 億美元創紀錄</a></h3>
+<p class="sum">AI 熱潮帶動 2026 上半年全球創投融資達 5100 億美元，超越 2025 全年 4400 億。北美初創融資達 3920 億，第二季 1372 億，AI、能源、生技領跑。</p>
+<p class="why"><b>點解重要</b>AI 資金狂潮未退，反映風險偏好，留意估值泡沫訊號</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">24</span><span class="chips"><span class="chip src">證券時報 / Yahoo財經</span><span class="chip mkt hk">香港</span></span></div>
+<h3><a href="https://www.stcn.com/article/detail/3953397.html" target="_blank" rel="noopener noreferrer">智譜港股解禁逆市大漲 13%，同日開源 GLM-5.2 登全球 SOTA</a></h3>
+<p class="sum">「大模型第一股」智譜（2513）迎首次基石限售股解禁，逾 400 億市值解鎖，股價唔跌反升 13%、成交 120 億；因核心機構明言續持，同日開源新旗艦 GLM-5.2 躋身全球前三。</p>
+<p class="why"><b>點解重要</b>港股 AI 純龍頭，解禁不跌反映機構信心，值得 watchlist 跟進</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.stcn.com/article/detail/3953397.html" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">25</span><span class="chips"><span class="chip src">新浪財經</span><span class="chip mkt hk">香港</span></span></div>
+<h3><a href="https://finance.sina.com.cn/wm/2026-07-08/doc-inihapmy8189040.shtml" target="_blank" rel="noopener noreferrer">恒生科技指數單日暴漲逾 5%，AI 科技股全面大反攻</a></h3>
+<p class="sum">7 月 8 日恒指升近 3%、恒科升逾 5%，由 AI 概念股帶動；阿里、快手、百度、騰訊齊升，智譜同 MiniMax 納入恒科成分股後 AI 權重由 25% 升至 40%。</p>
+<p class="why"><b>點解重要</b>恒科 AI 權重升至 40%，直接影響港股科技倉位配置</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://finance.sina.com.cn/wm/2026-07-08/doc-inihapmy8189040.shtml" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">26</span><span class="chips"><span class="chip src">數字政策辦公室 / 證券時報</span><span class="chip mkt hk">香港</span></span></div>
+<h3><a href="https://www.digitalpolicy.gov.hk/tc/our_work/digital_infrastructure/industry_development/ai_subsidy_scheme/" target="_blank" rel="noopener noreferrer">香港撥 30 億推三年 AI 資助計劃，超算算力最高補貼七成</a></h3>
+<p class="sum">港府撥 30 億推為期三年 AI 資助計劃，資助本地院校、研發機構、AI 初創等善用數碼港超算中心，合資格用戶算力補貼最高達定價七成；另撥 10 億建香港 AI 研發院。</p>
+<p class="why"><b>點解重要</b>港府政策紅利，AI 初創同企業可實質慳算力成本</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.digitalpolicy.gov.hk/tc/our_work/digital_infrastructure/industry_development/ai_subsidy_scheme/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">27</span><span class="chips"><span class="chip src">經濟日報 / 豐雲學堂</span><span class="chip mkt tw">台灣</span></span></div>
+<h3><a href="https://money.udn.com/money/story/5607/9595920" target="_blank" rel="noopener noreferrer">聯發科 AI ASIC 營收目標倍增至 20 億美元，外資喊上看 5000 元</a></h3>
+<p class="sum">聯發科（2454）法說會將全年 AI ASIC 營收目標由 10 億倍增至 20 億美元，外資密集調升目標價：美系 5000 元、澳系麥格理喊上萬元；法人推算 2027 年 ASIC 營收上看 70-120 億、佔比 35%。股價曾漲停 2090 元創新高。</p>
+<p class="why"><b>點解重要</b>台股 AI ASIC 新主角，外資史詩級上修目標價</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://money.udn.com/money/story/5607/9595920" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">28</span><span class="chips"><span class="chip src">鉅亨網 / 財報狗</span><span class="chip mkt tw">台灣</span></span></div>
+<h3><a href="https://statementdog.com/news/15201" target="_blank" rel="noopener noreferrer">台積電再上調 2026-27 年 CoWoS 產能，輝達博通已預訂逾五成</a></h3>
+<p class="sum">台積電 2026 年底 CoWoS 月產能目標約 12.5 萬片，較 2025 年底擴 20-30%；大摩調查指新增產能開出前已被輝達（逾五成）、博通掃光，Google TPU、聯發科 ASIC 搶餘額。</p>
+<p class="why"><b>點解重要</b>先進封裝仍供不應求，直接鎖定台積 AI 成長確定性</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://statementdog.com/news/15201" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">29</span><span class="chips"><span class="chip src">經濟日報 / 科技新報</span><span class="chip mkt tw">台灣</span></span></div>
+<h3><a href="https://finance.technews.tw/2026/05/12/foxconn-leads-quanta-and-wistron-in-ai-server-shipments/" target="_blank" rel="noopener noreferrer">輝達 GB300 大量出貨在即，鴻海 AI 伺服器市佔逾 44% 穩坐龍頭</a></h3>
+<p class="sum">輝達 GB300（Blackwell Ultra）全年量產，法人估明年機櫃達 5.5 萬櫃；鴻海約 3700 櫃出貨量市佔逾 44% 領先廣達緯創，大摩上調 2026 年 GB 系列機架出貨至 7-8 萬櫃。</p>
+<p class="why"><b>點解重要</b>GB300 放量帶旺鴻海台鏈，AI 伺服器組裝主軸</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://finance.technews.tw/2026/05/12/foxconn-leads-quanta-and-wistron-in-ai-server-shipments/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">30</span><span class="chips"><span class="chip src">TNL關鍵評論網 / 露股go</span><span class="chip mkt tw">台灣</span></span></div>
+<h3><a href="https://www.thenewslens.com/article/204169" target="_blank" rel="noopener noreferrer">台股 AI 權值股火力全開，加權指數單日大漲逾 890 點</a></h3>
+<p class="sum">台股加權指數單日漲 893 點（+1.94%），成交量放大至 1.3 兆，主因台積電、聯發科、鴻海三大 AI 權值股領軍；鴻海創近 17 年新高，台積電市值邁向 1 兆美元。</p>
+<p class="why"><b>點解重要</b>台股 AI 三雄領漲，反映 AI 供應鏈資金熱度</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.thenewslens.com/article/204169" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article></div></section>
+<section id="sec3"><h2>論文研究<em>4 條</em></h2><div class="grid"><article class="card">
+<div class="ctop"><span class="no">31</span><span class="chips"><span class="chip src">smol.ai / Anthropic</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.anthropic.com/research/global-workspace" target="_blank" rel="noopener noreferrer">Anthropic 揭 LLM 內部「J-Space」全域工作區</a></h3>
+<p class="sum">Anthropic 論文指模型有一組活化狀態組成「J-space」，似全域工作區可保留、回報同用於多步推理，而大量流暢生成其實繞過咗呢層；例如答錯前會先活化「incorrect」訊號。強調唔等於主觀意識。</p>
+<p class="why"><b>點解重要</b>推翻「隨機鸚鵡」框架，AI 可解釋性再進一步</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://www.anthropic.com/research/global-workspace" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">32</span><span class="chips"><span class="chip src">Crescendo AI</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener noreferrer">五眼聯盟發布 agentic AI 系統安全指引</a></h3>
+<p class="sum">美、澳、加、紐、英網絡安全同情報機構聯合發布指引，針對 agentic AI 系統安全風險，界定五類風險類別並列出最佳實踐建議。</p>
+<p class="why"><b>點解重要</b>AI agent 安全成監管焦點，企業部署要留意合規風向</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">33</span><span class="chips"><span class="chip src">Crescendo AI</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener noreferrer">AI 發現無稀土永磁材料，DuctGPT 登場</a></h3>
+<p class="sum">Ames 實驗室用物理訓練模型 DuctGPT，開發出發現無稀土永磁材料嘅 AI 工作流。成果將刊於 TMLR 並喺 NeurIPS 2026 發表，應用橫跨基因組、材料、氣候建模。</p>
+<p class="why"><b>點解重要</b>AI 攻克材料科學，無稀土磁材減依賴中國供應鏈，長線題材</p>
+<div class="cfoot"><time>7月7日</time><a class="more" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">34</span><span class="chips"><span class="chip src">CSDN博客</span><span class="chip mkt cn">中國</span></span></div>
+<h3><a href="https://blog.csdn.net/xyghehehehe/article/details/161263637" target="_blank" rel="noopener noreferrer">阿里 Qwen3.7「全域思考」統一文圖碼推理鏈</a></h3>
+<p class="sum">Qwen3.7 最大技術突破係全域思考模式（All-field Thinking），首次實現文本、圖像、代碼統一推理鏈；多模態涵蓋視覺理解、萬相 2.7 圖像生成同 Qwen-Audio 語音克隆。</p>
+<p class="why"><b>點解重要</b>統一多模態推理係技術風向，反映國產追平前沿</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://blog.csdn.net/xyghehehehe/article/details/161263637" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article></div></section>
+<section id="sec4"><h2>技巧與觀點<em>3 條</em></h2><div class="grid"><article class="card">
+<div class="ctop"><span class="no">35</span><span class="chips"><span class="chip src">smol.ai / OpenAI</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://x.com/OpenAI/status/2074972179385720836" target="_blank" rel="noopener noreferrer">OpenAI 撤回 SWE-Bench Pro，揭 coding benchmark 三成題目損壞</a></h3>
+<p class="sum">OpenAI 撤回 SWE-Bench Pro 作為推薦 coding 評測，因發現 30% 任務有問題。連同 Cognition 修訂 FrontierCode 評分規則，業界評測重心由「最高分」轉向「中位可靠度」。</p>
+<p class="why"><b>點解重要</b>睇 benchmark 排名要留神，真實可靠度先關鍵</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://x.com/OpenAI/status/2074972179385720836" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">36</span><span class="chips"><span class="chip src">smol.ai / LangChain</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://x.com/LangChain/status/2074871740350505309" target="_blank" rel="noopener noreferrer">觀點：AI 戰場由「最強模型」轉向 model＋harness 共同設計</a></h3>
+<p class="sum">LangChain 同 NVIDIA 推出全開源 NemoClaw Deep Agents Blueprint，評測稱聚合分 0.86 而成本僅 $4.48，對手最平嘅模型都要 $43.48，強調 agent 表現越嚟越靠編排同 harness，而非單靠底模。</p>
+<p class="why"><b>點解重要</b>智能路由＋編排慳成本，唔應死綁單一模型供應商</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://x.com/LangChain/status/2074871740350505309" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article>
+<article class="card">
+<div class="ctop"><span class="no">37</span><span class="chips"><span class="chip src">TechCrunch</span><span class="chip mkt intl">國際</span></span></div>
+<h3><a href="https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/" target="_blank" rel="noopener noreferrer">General Intuition：機器人將迎來 ChatGPT 時刻</a></h3>
+<p class="sum">General Intuition CEO 認為具身 AI 會跟語言模型走同一路徑，靠優質數據集打造可跨環境遷移運動直覺嘅基礎模型；公司曾以單一模型同時操控 Fortnite 式遊戲同四足機器人，剛完成 3.2 億美元 A 輪、估值 23 億，貝索斯、Eric Schmidt 參投。</p>
+<p class="why"><b>點解重要</b>具身 AI 成下一風口，機器人板塊估值想像空間打開</p>
+<div class="cfoot"><time>7月8日</time><a class="more" href="https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/" target="_blank" rel="noopener noreferrer">閱讀原文 ↗</a></div>
+</article></div></section>
+</main>
+<footer><div class="wrap">
+<p>今日共 <b>37</b> 條精選　·　時間為香港時間　·　每日更新</p>
+<p>數據源：smol.ai · Anthropic · OpenAI · Google · xAI · NVIDIA · CNBC · TechCrunch · VentureBeat · Crunchbase · Bloomberg · 證券時報 · 新浪財經 · 機器之心 · 經濟日報 · 鉅亨網 · IT之家</p>
+<p>內容僅供資訊參考，不構成投資建議。</p>
+</div></footer>
+<div id="toast">連結已複製，可以直接 send 俾朋友</div>
+<script>
+const SHARE_URL="https://carriehw.github.io/ai-daily/";
+function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.classList.add('on');setTimeout(()=>el.classList.remove('on'),2200)}
+function legacyCopy(){const ta=document.createElement('textarea');ta.value=SHARE_URL;ta.style.cssText='position:fixed;opacity:0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}ta.remove();return ok}
+function showBox(){const b=document.getElementById('sharebox');b.classList.add('on');const inp=b.querySelector('input');inp.focus();inp.select()}
+document.getElementById('share').addEventListener('click',async()=>{
+  if(navigator.share){try{await navigator.share({title:document.title,url:SHARE_URL});return}catch(e){if(e.name==='AbortError')return}}
+  try{await navigator.clipboard.writeText(SHARE_URL);toast('連結已複製，可以直接 send 俾朋友');return}catch(e){}
+  if(legacyCopy()){toast('連結已複製，可以直接 send 俾朋友');return}
+  showBox();
+});
+</script>
