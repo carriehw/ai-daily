@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-09",
-  "date_display": "2026年7月9日 · 星期四",
+  "date": "2026-07-10",
+  "date_display": "2026年7月10日 · 星期五",
   "sections": [
     "模型發布/更新",
     "產品發布/更新",
@@ -8,377 +8,307 @@
     "論文研究",
     "技巧與觀點"
   ],
-  "sources_note": "smol.ai · Anthropic · OpenAI · Google · xAI · NVIDIA · CNBC · TechCrunch · VentureBeat · Crunchbase · Bloomberg · 證券時報 · 新浪財經 · 機器之心 · 經濟日報 · 鉅亨網 · IT之家",
+  "sources_note": "smol.ai · Anthropic · OpenAI · Google · xAI · Meta · TechCrunch · The Verge · Reuters · Bloomberg · Forbes · Axios · SCMP · 新浪財經 · 站長之家 · 經濟日報 · 工商時報 · 文匯報",
   "items": [
     {
-      "title": "Claude Sonnet 5 發布，成 Free/Pro 預設模型",
-      "summary": "Anthropic 出咗最強嘅 Sonnet 5，寫 code 實力逼近旗艦 Opus 4.8，仲一次過讀得晒超長內容唔會斷片。promo 價每百萬 token $2/$10，平到 8 月 31 號。",
-      "source": "Anthropic",
-      "url": "https://releasebot.io/updates/anthropic/claude",
+      "title": "OpenAI GPT-5.6 三兄弟 Sol/Terra/Luna 全面開放",
+      "summary": "OpenAI 7月9日正式開放 GPT-5.6 三個版本：Sol 最強、Terra 日常、Luna 最平。官方主打「同 GPT-5.5 一樣價錢、能力更高」，一開就分 24 鐘鋪去 ChatGPT、Codex 同 API。",
+      "source": "TechCrunch / Engadget",
+      "url": "https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/",
+      "time": "7月9日",
+      "section": "模型發布/更新",
+      "market": "國際",
+      "why": "想試最新 ChatGPT，揀 Terra 又平又夠用，唔使硬食貴價 Sol。"
+    },
+    {
+      "title": "xAI 推 Grok 4.5 馬斯克叫佢做「Opus 級」",
+      "summary": "xAI 7月8日推 Grok 4.5，用真實 Cursor 數據練成，主打寫 code 同 agent。馬斯克話大概等同 Opus 4.7 而更快更平，定價 $2/$6 per Mtok。",
+      "source": "TechCrunch / Axios",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
       "time": "7月8日",
       "section": "模型發布/更新",
       "market": "國際",
-      "why": "又平又強，Claude Code 用家即刻慳返荷包"
+      "why": "寫 code 又多個平快選擇，同 Claude、GPT 搶生意對用家係好事。"
     },
     {
-      "title": "OpenAI 宣布 GPT-5.6 Sol/Terra/Luna 7 月 9 日公開發布",
-      "summary": "OpenAI 嘅 GPT-5.6 三個版本 7 月 9 號全面公開，唔再淨限政府用。旗艦 Sol 每百萬 token $5/$30，Terra 主打平衡、Luna 最快最平，主攻寫 code、科學同網絡安全。",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-      "time": "7月8日",
+      "title": "Meta 首次收費開放 AI 模型 Muse Spark 1.1",
+      "summary": "朱克伯格 7月9日話 Meta 首次向企業收費開放模型 Muse Spark 1.1，主打 agent 推理同工具運用，聲稱係市場上最平之一。一向免費開源嘅 Meta 今次轉收費。",
+      "source": "PYMNTS / Bloomberg",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-says-its-first-pay-to-use-ai-model-outperforms-google/",
+      "time": "7月9日",
       "section": "模型發布/更新",
       "market": "國際",
-      "why": "新旗艦即刻用得，開發者受惠、牽動美股 AI 股"
+      "why": "連 Meta 都轉收費，反映 AI 生意愈嚟愈講實際回報。"
     },
     {
-      "title": "xAI 聯手 Cursor 推 Grok 4.5，$2/$6 定價殺入 coding 賽道",
-      "summary": "xAI 同 Cursor 合作，出咗首個專攻寫 code 同 agent 嘅 Grok 4.5，每百萬 token 平到 $2/$6。實力排全球第四，僅次 Fable 5、GPT-5.5、Opus 4.8。",
-      "source": "smol.ai / Artificial Analysis",
-      "url": "https://x.ai/news/grok-4-5",
-      "time": "7月8日",
+      "title": "中國 Z.ai GLM-5.2 逼近 Opus 4.8 價錢平六分一",
+      "summary": "Z.ai 開源模型 GLM-5.2 有 1M context（一次過讀得晒超長內容），喺長時間寫 code 任務只落後 Opus 4.8 約 1%，價錢約 $1.4/$4.4 per Mtok，OpenRouter 排名爬過 Anthropic。",
+      "source": "Euronews / SCMP",
+      "url": "https://www.euronews.com/next/2026/07/03/what-is-glm-52-the-new-chinese-ai-model-thats-rivalling-anthropic",
+      "time": "7月上旬",
       "section": "模型發布/更新",
       "market": "國際",
-      "why": "頂級質素賣平價，寫 code 多咗個抵用選擇"
+      "why": "平價開源又夠強，慳成本嘅開發者多個抵用選擇。"
     },
     {
-      "title": "Google Gemini 3.5 Pro 押後至 7 月 17 日，架構重建",
-      "summary": "Google 索性撇甩舊架構，將 Gemini 3.5 Pro 由頭重新設計，押後到 7 月 17 號先出。新版一次過讀得晒 2M token 內容，強化數學推理、SVG 同圖像質素。",
+      "title": "DeepSeek V4 正式版 7 月中旬上線 推理成本大跌",
+      "summary": "深度求索官宣 DeepSeek-V4 正式版 7月中旬推出，分 V4-Pro 同 V4-Flash，撐 100 萬 token 超長上下文，推理算力只係 V3 嘅 27%，Agent 同寫 code 叫板頂尖閉源模型。",
+      "source": "SegmentFault",
+      "url": "https://segmentfault.com/a/1190000047943067",
+      "time": "7月中旬",
+      "section": "模型發布/更新",
+      "market": "中國",
+      "why": "推理平咗，用開 DeepSeek 嘅 App、API 隨時跟住減價。"
+    },
+    {
+      "title": "Kimi K3 確認本月發布 2.5 萬億參數登頂國產",
+      "summary": "月之暗面官宣 Kimi K3 七月內推出，2.5 萬億 MoE 參數、100 萬字上下文、原生多模態（識睇圖睇聲），參數規模超越 DeepSeek V4-Pro 同文心 5.0，公司估值飆到 315 億美元。",
+      "source": "站長之家",
+      "url": "https://www.chinaz.com/ainews/29318.shtml",
+      "time": "7月9日",
+      "section": "模型發布/更新",
+      "market": "中國",
+      "why": "國產模型軍備競賽白熱化，用家又多個平價強模型寫嘢睇圖。"
+    },
+    {
+      "title": "通義千問 7 月 9 日一口氣更新多款模型",
+      "summary": "阿里 Qwen 當日連環上新，補上旗艦 Qwen3-Max、推理版 Max-Thinking、語音 Qwen3-TTS，開源再加 Qwen3-Omni、Qwen3-VL、Qwen3-Next，通用推理多模態齊晒。",
+      "source": "知乎（大模型盤點）",
+      "url": "https://zhuanlan.zhihu.com/p/670574382",
+      "time": "7月9日",
+      "section": "模型發布/更新",
+      "market": "中國",
+      "why": "阿里主攻智能體同多模態，開發者有新工具，利好阿里 9988。"
+    },
+    {
+      "title": "騰訊混元發布並開源 Hy3 模型",
+      "summary": "騰訊 7月7日發布並開源新一代混元 Hy3，繼續行開源路線俾開發者免費落地用；同期混元生圖系列 HunyuanImage 亦有更新，主打 2K 高清生圖。",
+      "source": "AI早報（bilibili）",
+      "url": "https://www.bilibili.com/video/BV1BMM46cEBo/",
+      "time": "7月7日",
+      "section": "模型發布/更新",
+      "market": "中國",
+      "why": "騰訊開源加碼，接入微信生態，利好騰訊 00700。"
+    },
+    {
+      "title": "百度文心 X1.1 推理模型更新",
+      "summary": "百度 7月上旬更新文心推理模型 X1.1，接續早前發布嘅文心 5.1 超稀疏 MoE 架構，主打預訓練成本大跌、智能體同推理能力升級。",
+      "source": "AI早報彙總",
+      "url": "https://ai-bot.cn/daily-ai-news/",
+      "time": "7月9日",
+      "section": "模型發布/更新",
+      "market": "中國",
+      "why": "百度靠平成本追大隊，用文心 API 嘅企業成本再降，利好 09888。"
+    },
+    {
+      "title": "OpenAI 推 GPT-Live 語音 可以邊聽邊講唔使等",
+      "summary": "7月8日 OpenAI 換走舊 ChatGPT 語音，新 GPT-Live 用全雙工架構（一邊聽一邊講、即時你一言我一語），仲識用「嗯」「係啊」搭嘴回應。",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "time": "7月8日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "同 AI 傾偈唔再一問一答咁生硬，好似真人打電話咁自然。"
+    },
+    {
+      "title": "OpenAI 推 ChatGPT Work 幫你做足幾個鐘出成品",
+      "summary": "7月9日推出的 ChatGPT Work 係 ChatGPT 入面嘅 agent，跨你啲 app 搵料，拆解複雜任務做幾個鐘，直接交表格、簡報同文件。",
+      "source": "OpenAI / DigitalApplied",
+      "url": "https://www.digitalapplied.com/blog/chatgpt-work-openai-agent-launch-2026",
+      "time": "7月9日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "交低一句要求就有製成品，慳返自己砌 slide 砌 excel 嘅時間。"
+    },
+    {
+      "title": "Anthropic Claude Cowork 登陸手機同網頁",
+      "summary": "Claude Cowork 由桌面擴展到 web 同手機，先開放畀 Max 用戶。Session 存喺雲端，關咗電腦都繼續行，仲可以排定時任務自動做。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "time": "7月7日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "出街用手機都可以叫 Claude 開工，返到屋企見到佢做好晒。"
+    },
+    {
+      "title": "Meta 推 Muse Image 圖像生成 內置 Meta AI 免費用",
+      "summary": "Muse Image 係 Meta Superintelligence Labs 第一個圖像生成模型，已內置喺 Meta AI，日常用免費，亦有訂閱版可揀。",
+      "source": "Meta（about.fb.com）",
+      "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+      "time": "7月上旬",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "喺 IG、WhatsApp 順手生圖，唔使再特登開第二個 app。"
+    },
+    {
+      "title": "字節 Seed 推多模態圖像模型 定位「理解設計」",
+      "summary": "字節 Seed 團隊 7月發布新多模態圖像創作模型，定位由單純「畫面生成」升級到「理解設計」，配合豆包生態，主打睇得明需求先出圖。",
+      "source": "掘金（7月AI熱點）",
+      "url": "https://juejin.cn/post/7659388305413652490",
+      "time": "7月",
+      "section": "產品發布/更新",
+      "market": "中國",
+      "why": "豆包月活最大，出圖更貼需求，做設計、營銷嘅可以慳返請人畫圖。"
+    },
+    {
+      "title": "AI 史上最激一日：三大實驗室同日開放新模型",
+      "summary": "7月9日 OpenAI GPT-5.6 同 xAI Grok 4.5 同期公開，加上 Gemini 未出，被形容為 AI 史上首次三大前沿實驗室同一日開放新模型。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "time": "7月9日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "模型更新快到眼花，揀邊個做主力愈嚟愈要睇用途場景。"
+    },
+    {
+      "title": "GPT-5.6 Sol 上 Cerebras 晶片 速度快 15 倍",
+      "summary": "OpenAI 確認 7月為部分客戶喺 Cerebras 晶圓級硬件跑 GPT-5.6 Sol，最高每秒 750 token，約為現時 GPU 推理速度 15 倍。",
+      "source": "LLM-Stats / BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "time": "7月9日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "AI 答得快 15 倍，等 AI 諗嘢嘅時間會大幅縮短。"
+    },
+    {
+      "title": "Google Gemini 3.5 Pro 再跳票 押後到 7 月 17 日",
+      "summary": "Google 話為咗改善數學推理、SVG 同圖像質素，索性推倒 2.5 Pro 架構重建，Gemini 3.5 Pro 延到 7月17日，帶 2M context 同 Deep Think。",
       "source": "BigGo Finance",
       "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "國際",
-      "why": "追趕 GPT-5.6 同 Fable 5，延期見壓力，留意 Alphabet"
-    },
-    {
-      "title": "Z.ai GLM-5.2 成 Vercel 採用增速最快模型",
-      "summary": "智譜 GLM-5.2 出咗第一個星期，日 token 用量爆升約 27 倍、客戶多咗約 80 倍，喺 OpenRouter 排名越過 Anthropic。寫 code 追近美國旗艦，成本只係六分一。",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
-      "time": "7月7日",
-      "section": "模型發布/更新",
-      "market": "國際",
-      "why": "開源又平嘅 code 模型崛起，開發者慳到錢"
-    },
-    {
-      "title": "月之暗面 Kimi K3 傳本月發布，參數衝 2.5 萬億超越 DeepSeek V4",
-      "summary": "月之暗面 Kimi K3 確認 7 月內出，2.5 萬億參數，規模大過 DeepSeek V4 同百度文心 5.0，仲讀得晒 1M 超長內容。公司估值升到 315 億美元、年收入破 3 億美元。",
-      "source": "AI工具寶箱 / 科極網",
-      "url": "https://www.aitoollab.cn/articles/kimi-k3-moonshot-2-5t-parameters-launch-202607/",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "中國",
-      "why": "國產最大模型將面世，AI 競賽白熱化風向"
-    },
-    {
-      "title": "DeepSeek V4 正式版 7 月中上線，引入峰谷定價高峰 API 價翻倍",
-      "summary": "DeepSeek V4 正式版 7 月中上線，分 Pro（16 萬億參數）同 Flash（2840 億）兩版，讀得晒 1M 內容。同時推分時收費，每日繁忙時段（9-12、14-18 時）API 貴一倍。",
-      "source": "科學網 / DeepSeek技術社區",
-      "url": "https://deepseek.csdn.net/6a43860c662f9a54cb86daed.html",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "中國",
-      "why": "避開繁忙時段用 API，即刻慳返一半錢"
-    },
-    {
-      "title": "阿里通義 Qwen3.7 系列旗艦，智能體可跑 35 小時超長任務",
-      "summary": "阿里通義 Qwen3.7 旗艦系列有 Max（萬億參數）同 Plus，文字、圖像、代碼一齊諗。個 AI 助理可以自己搞掂長達 35 個鐘嘅任務，推理速度快 10 倍。",
-      "source": "阿里雲開發者社區",
-      "url": "https://developer.aliyun.com/article/1740777",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "中國",
-      "why": "阿里雲（9988）AI 升級，港股估值多個催化"
-    },
-    {
-      "title": "MiniMax 開放 M3 權重，428B 智能體模型支援 Computer Use",
-      "summary": "MiniMax 公開咗 M3 權重，428B 參數，讀得晒 1M 內容，識寫程式、agent 協作同直接操作電腦（Computer Use）。同智譜一齊被納入恒生科技指數成分股。",
-      "source": "機器之心 / bilibili AI早報",
-      "url": "https://www.bilibili.com/video/BV1oMJ76bE73/",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "中國",
-      "why": "MiniMax 入恒科，港股多隻 AI 新標的"
-    },
-    {
-      "title": "Cognition SWE-1.7 發布，證 RL 後訓練天花板未到",
-      "summary": "Cognition 用月之暗面 Kimi K2.7 練出最強寫 code 模型 SWE-1.7，每單任務只需 $1.97，喺 Devin 以每秒 1000 token 高速跑，仲識喺長任務自己壓縮內容慳位。",
-      "source": "smol.ai / Cognition",
-      "url": "https://x.com/cognition/status/2074882968770728416",
-      "time": "7月8日",
-      "section": "模型發布/更新",
-      "market": "國際",
-      "why": "睇每單任務幾錢，比睇每 token 價更實際"
-    },
-    {
-      "title": "Anthropic Fable 5 轉用量計費，存取需政府身份驗證",
-      "summary": "由 7 月 8 號起，Anthropic 頂級模型 Fable 5 改成要俾錢先用嘅 add-on，人人都要買 credit。Pro 用戶每百萬 input $10、output $50。因應出口管制，用之前要驗證政府身份證件。",
-      "source": "Anthropic",
-      "url": "https://blog.mean.ceo/anthropic-claude-news-july-2026/",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "頂級模型改收費，直接影響荷包"
-    },
-    {
-      "title": "OpenAI 推出 GPT-Live 全雙工語音模型",
-      "summary": "OpenAI 出咗 GPT-Live 語音模型，可以一邊聽一邊講、即時你一言我一語咁對答，複雜問題會交後台大模型處理。已經喺全球 iOS、Android 同網頁版 ChatGPT 推送。",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/introducing-gpt-live/",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "語音對答體驗大躍進，即刻試得"
-    },
-    {
-      "title": "Claude Cowork 擴展至網頁同手機版",
-      "summary": "Claude Cowork 除咗電腦版，而家仲有網頁同手機版，由 Max plan 起分階段推出。工作可以喺遠端行，熄咗機都繼續做，排程任務唔使開住任何裝置。",
-      "source": "Anthropic",
-      "url": "https://releasebot.io/updates/anthropic/claude",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "AI 幫你遠端自動做嘢，隨時隨地用得"
-    },
-    {
-      "title": "Anthropic 推出 Claude Science 科研工作台",
-      "summary": "Anthropic 出咗 Claude Science 科研工作台，集齊研究員最常用嘅工具，做出嚟嘅成果可以查證來源，仲有彈性運算資源，覆蓋基因、材料科學、氣候模型等領域。",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "AI 打入科研市場，開拓新收入來源"
-    },
-    {
-      "title": "月之暗面開源 Kimi K2.7 Code，Token 消耗較 K2.6 降 30%",
-      "summary": "月之暗面出咗並開源 Kimi K2.7 Code 專攻寫程式，長內容編碼同跟指令表現大升，平均 token 用量比 K2.6 慳 30%。6 倍速高速版隨後上線。",
-      "source": "OSCHINA",
-      "url": "https://www.oschina.net/news/457565",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "中國",
-      "why": "即刻用得，token 慳 30% 即慳 API 開支"
-    },
-    {
-      "title": "字節豆包更新 Doubao-Seed-2.0，Coding 套餐加入戰局",
-      "summary": "字節豆包更新咗 Doubao-Seed-2.0，仲推出寫 code 訂閱套餐（Lite 每月 40 蚊、Pro 200 蚊），支援模型數最多，同通義、元寶燒錢搶用戶。",
-      "source": "博客園",
-      "url": "https://www.cnblogs.com/jzssuanfa/p/20098883",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "中國",
-      "why": "國產 code 套餐割價，揀 platform 有得參考"
-    },
-    {
-      "title": "TypeScript 7 正式版推出，原生移植快 10 倍",
-      "summary": "TypeScript 7 正式版出咗，個核心編譯器用原生語言重寫過，快咗大約 10 倍。大型專案嘅編譯、型別檢查同 IDE 反應都明顯快好多。",
-      "source": "smol.ai",
-      "url": "https://x.com/ahejlsberg/status/2074899956511760806",
-      "time": "7月8日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "前端開發者即刻受惠，大 project 編譯快好多"
-    },
-    {
-      "title": "美國白宮公布前沿模型監管框架",
-      "summary": "白宮公布咗一套機密 benchmark，界定邊啲模型算「受管前沿模型」，觸發發布前 30 日自願審查期，仲列明可信夥伴機制同出口管制嘅國際准入規則。",
-      "source": "Build Fast with AI",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
-      "time": "7月7日",
+      "time": "7月9日",
       "section": "行業動態",
       "market": "國際",
-      "why": "2023 年後最大 AI 監管事件，影響全行業發布同估值"
+      "why": "三大對手都出咗新模型，Google 落後緊，等佢下星期先追得返。"
     },
     {
-      "title": "中國 AI 模型佔美國企業 API 用量 30-46%",
-      "summary": "CNBC 調查證實，中國 AI 模型已經佔美國開發者平台企業 API 用量三成至四成半。開源嘅中國模型，比 Anthropic、OpenAI 旗艦平 60-90%。",
-      "source": "CNBC",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
-      "time": "7月7日",
+      "title": "晶片戰報：AMD 數據中心增 57% 拿下 OpenAI MI450 大單",
+      "summary": "AMD 首季數據中心收入 $5.8B，按年升 57%，增速快過 Nvidia，仲同 OpenAI 簽咗五年 MI450 供應合約。Nvidia 六月股價曾跌 10.82%。",
+      "source": "Intellectia / Benzinga",
+      "url": "https://intellectia.ai/blog/ai-chip-stocks-july-2026",
+      "time": "7月上旬",
       "section": "行業動態",
       "market": "國際",
-      "why": "平價中國模型搶市場，威脅美系定價，美股響警號"
+      "why": "Nvidia 一家獨大出現裂縫，AMD 追上嚟對用家同股民都有睇頭。"
     },
     {
-      "title": "Anthropic Q2 融資 650 億美元，估值 9650 億",
-      "summary": "Anthropic 成為第二季集資最多嘅公司，一筆過融資 650 億美元，投後估值 9650 億。當中包括 5 月 Altimeter、Sequoia 領投嘅 500 億，加 Amazon 50 億、Google 100 億。",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
-      "time": "7月7日",
+      "title": "8090 Labs 融資 1.35 億美元 Salesforce 領投",
+      "summary": "8090 Labs 完成 $135M A 輪，Salesforce Ventures 領投，用嚟擴展佢針對醫療、航天等受規管行業嘅 agentic「軟件工廠」平台。",
+      "source": "Crunchbase / BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "time": "7月上旬",
       "section": "行業動態",
       "market": "國際",
-      "why": "估值逼近萬億美元，反映一級市場狂熱，留意上市時間"
+      "why": "大錢流入 agentic coding，反映呢個賽道係今年重心。"
     },
     {
-      "title": "SpaceX 上市後擬 600 億美元收購 Cursor 母公司",
-      "summary": "第二季有史上最大創投 IPO 同最大收購：SpaceX 以 1.77 萬億估值上市集資 750 億，一個星期後確認擬用 600 億美元收購 AI 寫 code 工具 Cursor 母公司 Anysphere。",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/na-startup-funding-ma-shattered-records-ai-q2-2026/",
-      "time": "7月7日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "AI code 工具估值狂飆，天價收購改寫版圖"
-    },
-    {
-      "title": "NVIDIA Vera Rubin 平台全面投產",
-      "summary": "NVIDIA Rubin 平台全面投產，六款新晶片砌成一部 AI 超級電腦，下半年由夥伴供貨。AWS、Google Cloud、微軟、OCI 同 CoreWeave 率先部署，微軟用喺 Fairwater 超級工廠。",
-      "source": "NVIDIA",
-      "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
-      "time": "7月8日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "算力供應鏈核心，Rubin 出貨牽動 NVDA 同 AI 基建股"
-    },
-    {
-      "title": "上半年全球創投融資破 5100 億美元創紀錄",
-      "summary": "AI 熱潮帶動 2026 上半年全球創投融資達 5100 億美元，超過 2025 全年 4400 億。北美初創融資 3920 億，AI、能源同生技跑得最前。",
-      "source": "Crunchbase News",
-      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "time": "7月7日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "AI 資金狂潮未退，留意估值泡沫訊號"
-    },
-    {
-      "title": "智譜港股解禁逆市大漲 13%，同日開源 GLM-5.2 登全球 SOTA",
-      "summary": "「大模型第一股」智譜（2513）首次基石股解禁，逾 400 億市值鬆綁，股價唔跌反升 13%、成交 120 億，因為核心機構明言繼續持有；同日開源新旗艦 GLM-5.2 躋身全球前三。",
-      "source": "證券時報 / Yahoo財經",
-      "url": "https://www.stcn.com/article/detail/3953397.html",
-      "time": "7月8日",
+      "title": "智譜配售新 H 股 集資約 314 億港元",
+      "summary": "智譜 7月9日公告配售全新 H 股，每股 1588 港元，足額認購下集資約 314.1 億港元，較 7月8日收市價折讓約 13%，創今年港股科技股單筆配售新高，錢投落大模型研發。",
+      "source": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-07-09/doc-inihench4491786.shtml",
+      "time": "7月9日",
       "section": "行業動態",
       "market": "香港",
-      "why": "港股 AI 純龍頭，解禁不跌見機構信心，值得跟"
+      "why": "大額配售即係攤薄舊股東，持 2513 智譜嘅要防股價短線受壓。"
     },
     {
-      "title": "恒生科技指數單日暴漲逾 5%，AI 科技股全面大反攻",
-      "summary": "7 月 8 號恒指升近 3%、恒生科技指數升逾 5%，由 AI 概念股帶動。阿里、快手、百度、騰訊齊升，智譜同 MiniMax 入成分股後，恒科 AI 權重由 25% 升到 40%。",
+      "title": "港股大模型雙雄解禁 智譜兩日漲逾 20% MiniMax 插 17%",
+      "summary": "智譜同 MiniMax 迎來上市後首輪解禁，7月9日走勢兩極：智譜兩日累漲逾 20%，MiniMax 單日大跌 17%，反映市場對大模型股估值分歧好大。",
       "source": "新浪財經",
-      "url": "https://finance.sina.com.cn/wm/2026-07-08/doc-inihapmy8189040.shtml",
+      "url": "https://finance.sina.com.cn/stock/t/2026-07-09/doc-inihfpqx5341394.shtml",
+      "time": "7月9日",
+      "section": "行業動態",
+      "market": "香港",
+      "why": "解禁即係早期股東可以沽貨，持大模型港股要防波動。"
+    },
+    {
+      "title": "香港 AI 超算中心啟用 資助計劃批近 30 個項目",
+      "summary": "特首李家超宣布數碼港 AI 超算中心正式啟用，提供 3,000 PFLOPS 算力，30 億元三年 AI 資助計劃已批近 30 個項目，涵蓋本地大模型、新材料、醫學，香港 AI 研究院下半年運作。",
+      "source": "香港文匯報",
+      "url": "https://www.wenweipo.com/a/202607/08/AP6a4dad15e4b0b49ad1c26f0e.html",
       "time": "7月8日",
       "section": "行業動態",
       "market": "香港",
-      "why": "恒科 AI 權重升到 40%，直接影響港股科技倉位"
+      "why": "港府真金白銀砌 AI 基建，本地科技、數據中心概念股受惠。"
     },
     {
-      "title": "香港撥 30 億推三年 AI 資助計劃，超算算力最高補貼七成",
-      "summary": "港府撥 30 億搞為期三年嘅 AI 資助計劃，畀本地院校、研發機構同 AI 初創用數碼港超算中心，合資格用戶算力最多補貼定價七成；另撥 10 億起香港 AI 研發院。",
-      "source": "數字政策辦公室 / 證券時報",
-      "url": "https://www.digitalpolicy.gov.hk/tc/our_work/digital_infrastructure/industry_development/ai_subsidy_scheme/",
-      "time": "7月8日",
-      "section": "行業動態",
-      "market": "香港",
-      "why": "港府政策紅利，AI 初創同企業實質慳算力錢"
-    },
-    {
-      "title": "聯發科 AI ASIC 營收目標倍增至 20 億美元，外資喊上看 5000 元",
-      "summary": "聯發科（2454）將全年 AI ASIC 營收目標由 10 億倍增到 20 億美元，外資密密調升目標價：美系睇 5000 蚊、麥格理睇上萬蚊。股價曾漲停 2090 蚊創新高。",
-      "source": "經濟日報 / 豐雲學堂",
-      "url": "https://money.udn.com/money/story/5607/9595920",
-      "time": "7月8日",
+      "title": "台積電 7 月 16 日公布 Q2 業績 AI 需求成焦點",
+      "summary": "台積電 7月16日公布第二季業績，市場預期收入約 400 億美元、年增逾 30%。投資者最關注全年指引、資本開支會否上調，同 CoWoS 先進封裝產能瓶頸。",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/drewbernstein/2026/07/09/tsmcs-second-quarter-will-test-whether-the-ai-buildout-has-a-ceiling/",
+      "time": "7月9日",
       "section": "行業動態",
       "market": "台灣",
-      "why": "台股 AI ASIC 新主角，外資史詩式上調目標價"
+      "why": "台積電係 AI 晶片總開關，業績牽動全球 AI 股同 TSM。CoWoS＝把多粒晶片砌埋一齊嘅先進封裝。"
     },
     {
-      "title": "台積電再上調 2026-27 年 CoWoS 產能，輝達博通已預訂逾五成",
-      "summary": "台積電再上調 2026 年底 CoWoS 月產能到約 12.5 萬片，比 2025 年底擴 20-30%。大摩指新增產能未開出就俾輝達（逾五成）、博通掃晒，Google、聯發科搶餘額。",
-      "source": "鉅亨網 / 財報狗",
-      "url": "https://statementdog.com/news/15201",
-      "time": "7月8日",
+      "title": "台股上半年飆近 60% 聯發科勁升近 200%",
+      "summary": "台股加權指數上半年收 46,125 點、累漲近 60%，由 AI 同半導體出口帶動；台積電升 55%，聯發科受惠 AI ASIC 題材爆升逾 192%，外資將聯發科目標價升到 10,000 元新台幣。",
+      "source": "TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/262000110-tsm-tsml-taiwan-6285-2454-tradingkey",
+      "time": "7月初",
       "section": "行業動態",
       "market": "台灣",
-      "why": "先進封裝仍然供不應求，鎖實台積 AI 成長"
+      "why": "AI 帶挈成個台股狂升，追唔追、會唔會過熱，睇住 2454 同 2330。"
     },
     {
-      "title": "輝達 GB300 大量出貨在即，鴻海 AI 伺服器市佔逾 44% 穩坐龍頭",
-      "summary": "輝達 GB300（Blackwell Ultra）全年量產，法人估明年機櫃達 5.5 萬櫃。鴻海約 3700 櫃、市佔逾 44% 領先廣達緯創，大摩上調 2026 年 GB 系列出貨到 7-8 萬櫃。",
-      "source": "經濟日報 / 科技新報",
-      "url": "https://finance.technews.tw/2026/05/12/foxconn-leads-quanta-and-wistron-in-ai-server-shipments/",
-      "time": "7月8日",
+      "title": "聯發科攞 Google TPU 大單 全年 AI ASIC 收入上望 20 億美元",
+      "summary": "聯發科為 Google 設計嘅 TPU 客製晶片進度順利，第四季開始貢獻收入，全年 AI ASIC 收入目標翻倍到 20 億美元；Counterpoint 估到 2028 年可食 26% 份額。",
+      "source": "工商時報",
+      "url": "https://www.ctee.com.tw/news/20260427700044-439901",
+      "time": "近期",
       "section": "行業動態",
       "market": "台灣",
-      "why": "GB300 放量帶旺鴻海台鏈，AI 伺服器組裝主軸"
+      "why": "ASIC＝為單一客戶度身訂造嘅 AI 晶片，聯發科 2454 開新財路。"
     },
     {
-      "title": "台股 AI 權值股火力全開，加權指數單日大漲逾 890 點",
-      "summary": "台股加權指數單日勁升 893 點（+1.94%），成交量放大到 1.3 兆，主要靠台積電、聯發科、鴻海三大 AI 權值股領軍。鴻海創近 17 年新高，台積電市值直逼 1 兆美元。",
-      "source": "TNL關鍵評論網 / 露股go",
-      "url": "https://www.thenewslens.com/article/204169",
-      "time": "7月8日",
+      "title": "鴻海 GB300 AI 伺服器市佔逾 44% 穩坐龍頭",
+      "summary": "鴻海 GB200/GB300 AI 機櫃出貨市佔逾 44% 穩坐龍頭，GB300 訂單能見度到明年底，董事長劉揚偉喊全年營收目標破 9 兆新台幣。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9165923",
+      "time": "近期",
       "section": "行業動態",
       "market": "台灣",
-      "why": "台股 AI 三雄領漲，反映供應鏈資金熱度"
+      "why": "AI 伺服器取代 iPhone 成鴻海第一引擎，睇住 2317 鴻海。"
     },
     {
-      "title": "Anthropic 揭 LLM 內部「J-Space」全域工作區",
-      "summary": "Anthropic 論文話模型內部有個似「全域工作區」嘅 J-space，可以記住嘢做多步推理，而好多流暢輸出其實繞過咗呢層；例如答錯之前會先亮起「incorrect」訊號。強調唔等於有意識。",
-      "source": "smol.ai / Anthropic",
-      "url": "https://www.anthropic.com/research/global-workspace",
-      "time": "7月8日",
+      "title": "Claude Code 同 Cowork 登陸美國政府版 FedRAMP High",
+      "summary": "Claude Code 同 Cowork 喺 Claude for Government Desktop 開公測，建喺 FedRAMP High 授權環境（美國政府最高級雲端安全認證），同商用客戶用同一套應用。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "time": "7月上旬",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "AI agent 打入政府部門，反映呢類工具開始入主流大機構。"
+    },
+    {
+      "title": "Anthropic 研究：Claude 有個「無字空間」諗嘢",
+      "summary": "Anthropic 用 Jacobian 技術發現 Claude 內部有個細小工作區，喺變成文字之前已經喺度處理諗法，同人類有意識思考有相似之處，命名為「J-Space」。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/07/06/anthropic-claude-ai-conscious",
+      "time": "7月6日",
       "section": "論文研究",
       "market": "國際",
-      "why": "推翻「隨機鸚鵡」講法，AI 可解釋性再進一步"
+      "why": "AI 究竟識唔識「諗嘢」，呢個研究畀到少少實質線索。"
     },
     {
-      "title": "五眼聯盟發布 agentic AI 系統安全指引",
-      "summary": "美、澳、加、紐、英嘅網絡安全同情報機構聯合出咗份指引，針對 agentic AI 系統嘅安全風險，界定五類風險並列出最佳做法建議。",
-      "source": "Crescendo AI",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "time": "7月7日",
-      "section": "論文研究",
-      "market": "國際",
-      "why": "AI agent 安全成監管焦點，企業部署要睇合規"
-    },
-    {
-      "title": "AI 發現無稀土永磁材料，DuctGPT 登場",
-      "summary": "Ames 實驗室用物理訓練嘅模型 DuctGPT，整咗套 AI 流程去搵無稀土永磁材料。成果會刊登喺 TMLR，並喺 NeurIPS 2026 發表，應用橫跨基因、材料同氣候。",
-      "source": "Crescendo AI",
-      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "time": "7月7日",
-      "section": "論文研究",
-      "market": "國際",
-      "why": "AI 攻克材料科學，無稀土減依賴中國供應，長線題材"
-    },
-    {
-      "title": "阿里 Qwen3.7「全域思考」統一文圖碼推理鏈",
-      "summary": "Qwen3.7 最大突破係「全域思考」模式，首次做到文字、圖像、代碼共用一條推理鏈；多模態涵蓋視覺理解、萬相 2.7 圖像生成同 Qwen-Audio 語音克隆。",
-      "source": "CSDN博客",
-      "url": "https://blog.csdn.net/xyghehehehe/article/details/161263637",
-      "time": "7月8日",
-      "section": "論文研究",
-      "market": "中國",
-      "why": "統一多模態推理係技術風向，見國產追平前沿"
-    },
-    {
-      "title": "OpenAI 撤回 SWE-Bench Pro，揭 coding benchmark 三成題目損壞",
-      "summary": "OpenAI 撤回 SWE-Bench Pro 作為推薦嘅 coding 評測，因為發現三成任務有問題。連埋 Cognition 修訂評分規則，業界睇 benchmark 由「邊個最高分」轉向「中位可靠度」。",
-      "source": "smol.ai / OpenAI",
-      "url": "https://x.com/OpenAI/status/2074972179385720836",
-      "time": "7月8日",
+      "title": "Tesla 封頂每人每週 AI 工具用 $200 收緊成本",
+      "summary": "Tesla 7月初對員工用 AI 寫 code 工具設每人每週 $200 上限，被視為企業由狂用 AI 轉向講求效率嘅訊號。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026",
+      "time": "7月6日",
       "section": "技巧與觀點",
       "market": "國際",
-      "why": "睇 benchmark 排名要留神，真實可靠先關鍵"
+      "why": "連 Tesla 都要計 AI 使費，公司用 AI 開始睇 ROI，唔再任燒。"
     },
     {
-      "title": "觀點：AI 戰場由「最強模型」轉向 model＋harness 共同設計",
-      "summary": "LangChain 同 NVIDIA 推出全開源嘅 NemoClaw Deep Agents Blueprint，評測聚合分 0.86 而成本只需 $4.48，對手最平嘅都要 $43.48；強調 agent 表現越嚟越靠編排同 harness，唔係淨靠底層模型。",
-      "source": "smol.ai / LangChain",
-      "url": "https://x.com/LangChain/status/2074871740350505309",
-      "time": "7月8日",
+      "title": "GPT-5.6 主打「每蚊性價比」 企業成本壓力見效",
+      "summary": "OpenAI 今次特別強調 GPT-5.6「同 GPT-5.5 一樣價錢、能力更高」，Sam Altman 明言聽到企業擔心 AI 使費，用平價換能力嚟回應市場。",
+      "source": "smol.ai",
+      "url": "https://news.smol.ai/issues/26-07-09-not-much/",
+      "time": "7月9日",
       "section": "技巧與觀點",
       "market": "國際",
-      "why": "智能編排慳成本，唔應死綁單一模型供應商"
-    },
-    {
-      "title": "General Intuition：機器人將迎來 ChatGPT 時刻",
-      "summary": "General Intuition CEO 話機器人會迎來自己嘅 ChatGPT 時刻，靠優質數據集練出跨環境用嘅運動直覺。公司啱啱完成 3.2 億美元 A 輪、估值 23 億，貝索斯、Eric Schmidt 有份投。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-      "time": "7月8日",
-      "section": "技巧與觀點",
-      "market": "國際",
-      "why": "具身 AI 成下個風口，機器人板塊想像空間打開"
+      "why": "揀模型除咗睇強唔強，愈嚟愈要計每蚊做到幾多嘢。"
     }
   ]
 }
