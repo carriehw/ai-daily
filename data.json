@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-14",
-  "date_display": "2026年7月14日 · 星期二",
-  "sources_note": "OpenAI · Anthropic · Google · Meta · Axios · TechCrunch · Bloomberg · Reuters · Crunchbase · Artificial Analysis · 新浪財經 · FX168 · 鉅亨網 · 聯合新聞網 · TechNews · 富雲學堂",
+  "date": "2026-07-15",
+  "date_display": "2026年7月15日 · 星期三",
+  "sources_note": "OpenAI · Anthropic · Google · Meta · xAI · TechCrunch · The Verge · Bloomberg · Reuters · Artificial Analysis · smol.ai · 新華社 · 中央社 · SCMP · 經濟日報 · 科技新報 · 21財經 · 梭哈AI",
   "sections": [
     "模型發布/更新",
     "產品發布/更新",
@@ -11,324 +11,374 @@
   ],
   "items": [
     {
-      "title": "OpenAI 正式發布 GPT-5.6，分 Sol／Luna／Terra 三版本",
-      "summary": "OpenAI 7月9日推 GPT-5.6，Sol 最強、Luna 主打快、Terra 平衡日常工作；Sol 新增 ultra 模式，可自己拆單交畀子模型分頭做。",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
-      "time": "7月9日",
+      "title": "Gemini 3.5 Pro 押後到 7月17日 架構全部重寫",
+      "summary": "Google 索性撇甩 2.5 Pro 架構重砌，Gemini 3.5 Pro 押到7月17日先出，主攻數學推理同圖像質素，帶 2M token（一次過讀得晒超長內容唔會斷片）同 Deep Think 深度思考層。",
+      "source": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+      "time": "7月14日",
       "section": "模型發布/更新",
       "market": "國際",
-      "why": "而家做分析寫嘢揀擇多咗，日常用 Terra 就夠慳錢。"
+      "why": "揀邊隻好，想要頂級推理再等兩日，GOOGL 今次係關鍵反擊。"
     },
     {
-      "title": "Gemini 3.5 Pro 據報 7月17日出，架構全部重寫",
-      "summary": "Google 據報將 Gemini 3.5 Pro 押到7月17日，索性撇甩 2.5 架構重砌，主打 2M token 上下文（一次過餵成本書都唔斷片）同 Deep Think 推理，追打 GPT-5.6 同 Fable 5。",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
-      "time": "7月13日",
+      "title": "GPT-5.6 需求爆錶 Sol 一週用量升 2.5 倍",
+      "summary": "Sam Altman 話 Codex + ChatGPT Work 一週用量升 2.5 倍，GPT-5.6 Sol 需求「癲咗」，算力追唔切或要慢慢擴容。三兄弟收費：Sol $5/$30、Terra $2.5/$15、Luna $1/$6 每百萬 token。",
+      "source": "smol.ai / @sama",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
       "section": "模型發布/更新",
       "market": "國際",
-      "why": "睇餸食飯，等埋 Gemini 出先揀邊隻幫你打工。"
+      "why": "影響荷包，日常用 Terra 或 Luna 就夠，慳過用 Sol 好多。"
     },
     {
-      "title": "商湯開源 SenseNova-Vision 統一視覺大模型",
-      "summary": "商湯 7月13日發布並開源 SenseNova-Vision 統一視覺大模型，將多項視覺任務（辨識、分割、生成）整合一次搞掂。",
-      "source": "FX168財經",
-      "url": "https://news.fx168news.com/cooperate/2607/7473635.shtml",
-      "time": "7月13日",
-      "section": "模型發布/更新",
-      "market": "中國",
-      "why": "開源免費用得，做圖像應用即刻試；商湯-W(00020.HK)搏商業化。"
-    },
-    {
-      "title": "Artificial Analysis：GPT-5.6 Sol 迫近 Fable 5，價錢平三份二",
-      "summary": "Artificial Analysis 測試，GPT-5.6 Sol（max）智能指數 59 分，只低 Claude Fable 5 一分，價錢約係三份一；Coding Agent 指數 80 分反超 Fable 5。",
-      "source": "Artificial Analysis",
-      "url": "https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
-      "time": "7月9日",
-      "section": "模型發布/更新",
-      "market": "國際",
-      "why": "揀 AI 諗性價比，Sol 又平又夠打值得試。"
-    },
-    {
-      "title": "OpenAI 推 GPT-Live 語音，一路聽一路講唔使等",
-      "summary": "OpenAI 7月8日推 GPT-Live 語音模型，取代舊 ChatGPT Voice，可以全雙工（一邊聽一邊講、即時你一言我一語），仲支援即時翻譯同傾偈途中搜尋。",
-      "source": "ExplainX",
-      "url": "https://www.explainx.ai/blog/gpt-live-openai-chatgpt-voice-july-2026",
+      "title": "xAI Grok 4.5 登場 智能指數單次升 16 分",
+      "summary": "xAI 出 Grok 4.5，Artificial Analysis 智能指數排第四（54分），係今代最大單次躍升，首次同 Cursor 共同訓練。收費 $2/$6 每百萬 token。",
+      "source": "Cloudmagazin",
+      "url": "https://www.cloudmagazin.com/en/2026/07/09/grok-4-5-gpt-5-6-muse-spark-the-week-of-the-price-shift/",
       "time": "7月8日",
-      "section": "產品發布/更新",
+      "section": "模型發布/更新",
       "market": "國際",
-      "why": "傾偈唔使等佢靜晒先答，即刻試得順唔順。"
+      "why": "揀邊隻好，性價比升咗，用 Cursor 寫 code 嘅可以試埋。"
     },
     {
-      "title": "OpenAI 推 ChatGPT Work，直接交完成品",
-      "summary": "OpenAI 7月9日推 ChatGPT Work agent，會喺你各個 app 抽資料、自己拆步驟，直接交返 sheet、slide、doc 同網頁 app，唔係得個答案。",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
+      "title": "Meta Muse Spark 1.1 首個自家收費 API",
+      "summary": "Meta 推 Muse Spark 1.1，係首個有自家付費 API 嘅前沿模型，主打 agent 同 Computer Use（直接操作電腦），1M token 脈絡，收費 $1.25/$4.25 每百萬 token。",
+      "source": "Daily Tech News Show",
+      "url": "https://dailytechnewsshow.com/2026/07/09/meta-launches-muse-spark-1-1-an-upgraded-ai-model-for-coding-and-perception-dth/",
       "time": "7月9日",
-      "section": "產品發布/更新",
+      "section": "模型發布/更新",
       "market": "國際",
-      "why": "慳返自己砌表整 deck 嘅時間，交到成品先過癮。"
+      "why": "影響荷包，價錢平過 Grok，做自動化 agent 多個抵選擇；睇 META。"
     },
     {
-      "title": "Claude Cowork 上埋雲、手機同網頁",
-      "summary": "Anthropic 7月7日將 Cowork 擴到網頁同手機，先開放畀 Max 用戶（$100/月）；公司開個任務，收工用電話睇進度，laptop 熄咗都照後台做落去。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
-      "time": "7月7日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "出咗街部電腦熄咗，啲工作照做落去。"
-    },
-    {
-      "title": "ChatGPT 新桌面 app 三合一，Chat／Work／Codex 一齊",
-      "summary": "OpenAI 全球推新 ChatGPT 桌面 app（Mac 同 Windows），將傾偈嘅 Chat、做報告嘅 Work、寫 code 嘅 Codex 三樣擺埋一個 app。",
-      "source": "OpenAI",
-      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-      "time": "7月9日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "唔使開幾個窗跳嚟跳去，一個 app 搞掂。"
-    },
-    {
-      "title": "Kimi K2.7 Code 高速版登陸 Kimi Code，快 6 倍",
-      "summary": "月之暗面 7月11日宣布 Kimi K2.7 Code 高速版正式進駐 Kimi Code 做常駐選項，輸出約 180 Token/秒，快標準版約 6 倍。",
-      "source": "新浪科技",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-07-11/doc-inihmzus3188606.shtml",
-      "time": "7月11日",
-      "section": "產品發布/更新",
-      "market": "中國",
-      "why": "寫 code 嘅慳返等待時間，即刻試得，速度大改。"
-    },
-    {
-      "title": "DeepSeek 舊 API 7月24日停用，開發者要即刻搬",
-      "summary": "DeepSeek 宣布 deepseek-chat 同 deepseek-reasoner 兩個舊別名 7月24日收爐，之後叫就出錯，要轉去 deepseek-v4-pro 或 v4-flash，改個參數就得。",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
-      "time": "7月13日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "用緊 DeepSeek 嘅唔搬就死機，快手改咗佢。"
-    },
-    {
-      "title": "Claude 推 Reflect，睇你點用 AI 嘅習慣",
-      "summary": "Anthropic 7月9日推 Reflect 儀表板，統計你傾過咩題材、幾時最活躍，仲會提你設靜音時段；Free／Pro／Max 開咗 Memory 就用得。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-      "time": "7月9日",
-      "section": "產品發布/更新",
-      "market": "國際",
-      "why": "一眼睇晒自己使咗幾多時間喺 AI 度值唔值。"
-    },
-    {
-      "title": "Apple 入稟告 OpenAI 盜商業秘密",
-      "summary": "Apple 7月10日入稟告 OpenAI 同硬件主管 Tang Tan，指佢挖角 Apple 員工、叫求職者帶零件面試、偷未出硬件產品機密；仲牽涉 Jony Ive 嘅 io Products。",
-      "source": "Bloomberg",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "time": "7月10日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "兩大巨頭開片，關乎 AI 硬件邊個做到出嚟。"
-    },
-    {
-      "title": "OpenAI 完成 $110B 融資，估值抽到 $730B",
-      "summary": "OpenAI 完成約 $110B 融資，估值抽到 $730B，係 AI 界最大手筆集資之一；上半年 OpenAI 同 Anthropic 兩間就占咗全球創投 43%。",
-      "source": "Crunchbase",
-      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "錢瘋狂湧向頭部，細 startup 更難分杯羹。"
-    },
-    {
-      "title": "上半年全球創投破 $510B 紀錄，AI 主導",
-      "summary": "Crunchbase 數據顯示 2026 上半年全球創投抽到破紀錄 $510B，超過 2025 全年；近 88% AI 資金流入美國公司。",
-      "source": "Crunchbase",
-      "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "錢都湧去美國 AI，睇 AI 主題投資要跟水源。"
-    },
-    {
-      "title": "Meta 起 Meta Compute 賣算力，硬撼 AWS 同 Azure",
-      "summary": "Meta 起緊雲端部門 Meta Compute，將閒置 AI 算力賣畀出面客，同 AWS、Azure、Google Cloud 正面撞；仲擴大同 Nvidia 多年多吉瓦芯片合作，自研芯片都開產。",
-      "source": "AI Dispatch",
-      "url": "https://hipther.com/latest-news/2026/07/03/114537/ai-dispatch-daily-trends-and-innovations-july-3-2026-microsoft-frontier-company-meta-compute-nvidia-ai-factories-and-ai-powered-device-inflation/0/",
-      "time": "7月3日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "Meta 轉身做雲生意，雲股格局可能洗牌。"
-    },
-    {
-      "title": "Anthropic 傾用 Microsoft Maia 200 芯片跑 Claude",
-      "summary": "Anthropic 同 Microsoft 初步傾緊喺 Azure 上用微軟自研 Maia 200 芯片跑 Claude 推理；Maia 200 今年1月推，行 TSMC 3nm，專為推理而設。",
-      "source": "AI Agents Directory",
-      "url": "https://aiagentsdirectory.com/news/ai-agents-directory-daily-brief-july-8-2026",
+      "title": "ByteDance Seedream 5.0 Pro 一張圖拆 10 層",
+      "summary": "ByteDance 出 Seedream 5.0 Pro，一次過生成可拆超過 10 個透明 PNG 圖層，識畫 14 種語言嘅圖內文字，攻高密度資訊圖同專業修圖，直逼 GPT-Image 2。",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/bytedance-debuts-seedream-5-0-pro-with-advanced-reasoning/",
       "time": "7月8日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "Claude 算力來源多元化，對供應鏈股有影響。"
-    },
-    {
-      "title": "中國據報考慮限頂尖 AI 模型出海",
-      "summary": "路透 7月7日報，中國當局同阿里、字節、智譜 Z.ai 開會，傾緊會唔會限制最先進 AI 模型（連未出同開源嘅）出海；暫時係政策討論，未落實。",
-      "source": "Reuters",
-      "url": "https://www.explainx.ai/blog/china-overseas-ai-model-restrictions-reuters-july-2026",
-      "time": "7月7日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "平價中國模型可能收緊，揀模型要留意。"
-    },
-    {
-      "title": "美國 EIA：AI 數據中心推電力需求創新高",
-      "summary": "美國能源署話 2026、2027 年電力消耗會創新高，AI 數據中心係主要推手，需求由 2025 年 4,195 十億度升到 2026 年 4,269 十億度。",
-      "source": "BuildFastWithAI",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-13-2026",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "國際",
-      "why": "電力同數據中心概念，可能係下一浪炒作。"
-    },
-    {
-      "title": "智譜港交所配售 314 億港元，上市後大模型最大融資",
-      "summary": "智譜 7月9日喺港交所公告完成約 314.1 億港元配售，係國內大模型上市後最大一筆股權融資，彈藥即刻 up。",
-      "source": "新浪財經",
-      "url": "https://finance.sina.com.cn/jjxw/2026-07-09/doc-inihfayz8584299.shtml",
-      "time": "7月9日",
-      "section": "行業動態",
-      "market": "香港",
-      "why": "港股大模型股又抽水，留意攤薄，揀貨睇清邊隻有真訂單。"
-    },
-    {
-      "title": "中國大模型全球調用量連 11 週超美，騰訊 Hy3 領先",
-      "summary": "OpenRouter 顯示全球大模型調用量達 54.6 萬億 Token，中國模型連續 11 週領跑，頭六名全中國，騰訊 Hy3 以 6.13 萬億 Token 居首。",
-      "source": "FX168財經",
-      "url": "https://news.fx168news.com/cooperate/2607/7473635.shtml",
-      "time": "7月13日",
-      "section": "行業動態",
+      "section": "模型發布/更新",
       "market": "中國",
-      "why": "國產模型真係多人用，睇好騰訊(00700.HK)AI 變現故事。"
+      "why": "即刻用得，做圖表海報唔使再逐格執，設計佬慳返好多工。"
     },
     {
-      "title": "MiniMax 創始人閆俊傑 承諾 AGI 前唔再領薪",
-      "summary": "MiniMax 創始人閆俊傑 7月13日宣布，由即日至實現 AGI 前唔再領薪酬，並拿出股份激勵團隊；同日 MiniMax-W(00100.HK)受配售壓力挫 17%。",
-      "source": "FX168財經",
-      "url": "https://news.fx168news.com/cooperate/2607/7473635.shtml",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "香港",
-      "why": "老闆押身家搏 AGI，反映 AI 燒錢壓力好實，新股波動大要揸穩。"
-    },
-    {
-      "title": "WAIC 2026 世界人工智能大會 7月17日上海開幕",
-      "summary": "2026 世界人工智能大會 7月17至20日上海開幕，展區破 10 萬平方米，超 300 款 AI 新品全球首發，華為 Atlas 950、MiniMax M3 等亮相。",
-      "source": "新浪科技",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-07-13/doc-inihrxcc2232787.shtml",
-      "time": "7月13日",
-      "section": "行業動態",
+      "title": "騰訊混元 Hy3 開源 295B MoE 定價低至 1 蚊",
+      "summary": "騰訊開源新一代混元 Hy3，295B 參數 MoE 架構，輸入低至 1 蚊人仔/百萬 token；仲出埋 1-bit、4-bit 版，配 llama.cpp 單張 GPU 都行得到。",
+      "source": "smol.ai / 梭哈AI",
+      "url": "https://www.163264.com/13698",
+      "time": "7月6日",
+      "section": "模型發布/更新",
       "market": "中國",
-      "why": "下週睇新品發布潮，想知國產 AI 去到邊，呢個展一次睇晒。"
+      "why": "開源又平，砌 AI 應用慳一大截 API 成本，即刻試得。"
     },
     {
-      "title": "台積電 7月16日法說會登場，外資目標價上望 3800 元",
-      "summary": "台積電(2330.TW)7月16日開法說會，市場聚焦全年成長目標同資本支出（估近 560 億美元），外資趁機上修目標價，最高喊到 3800 元。",
-      "source": "聯合新聞網",
-      "url": "https://udn.com/news/story/7251/9610463",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "台灣",
-      "why": "台股風向球，揸 2330 或台積 ADR 嘅要盯緊資本支出同 AI 展望。"
-    },
-    {
-      "title": "台積電 CoWoS 供不應求，訂單外溢封測台廠受惠",
-      "summary": "TechNews 7月13日報導，台積電先進封裝 CoWoS 產能全面售罄兼供不應求，訂單外溢帶挈封測台廠接單。",
-      "source": "TechNews科技新報",
-      "url": "https://technews.tw/2026/07/13/tsmc-cowos-undersupply-boosts-taiwan-osats-intel-order-spillover/",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "台灣",
-      "why": "AI 封裝塞爆，受惠嘅係封測二三線台廠，可留意訂單外溢股。"
-    },
-    {
-      "title": "外資全面重估聯發科，AI ASIC 爆發上修目標價",
-      "summary": "外資 7月全面重估聯發科(2454.TW)，睇好 AI ASIC（度身訂造嘅 AI 專用芯片）爆發力，ASIC 營收目標今年翻倍至 20 億美元。",
-      "source": "富雲學堂",
-      "url": "https://www.sinotrade.com.tw/richclub/hotstock/",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "台灣",
-      "why": "聯發科由手機芯片轉身做 AI ASIC，持 2454.TW 睇資料中心新引擎。"
-    },
-    {
-      "title": "SK 海力士暴跌 15.4%，掃寒 AI 記憶體氣氛",
-      "summary": "SK 海力士 7月13日收挫 15.4% 創史上最大單日跌幅，Q2 利多出盡兼 HBM 合約定價偏低，拖累 KOSPI 盤中瀉 9% 觸發熔斷。",
-      "source": "鉅亨網",
-      "url": "https://news.cnyes.com/news/id/6532287",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "台灣",
-      "why": "HBM 龍頭插水，台股南亞科、華邦電等記憶體股要小心。"
-    },
-    {
-      "title": "港股科指跌 0.96%，半導體 PCB 板塊集體調整",
-      "summary": "7月13日港股窄幅整理，恒指收升 0.16%，恒生科技指數跌 0.96%，受 SK 海力士暴跌拖累半導體、PCB 板塊集體調整。",
-      "source": "新浪財經",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-07-13/doc-inihrxaz4305511.shtml",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "香港",
-      "why": "記憶體風暴掃到港股 AI 鏈，短線波動大，揸半導體股要揸穩心情。"
-    },
-    {
-      "title": "豆包、千問自定義智能體 7月15日下線，擬人化新規同日施行",
-      "summary": "豆包同通義千問宣布用戶自定義智能體功能 7月15日下線，同日網信辦《人工智能擬人化互動服務管理暫行辦法》正式施行。",
-      "source": "新浪財經",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-07-13/doc-inihrxcc2232787.shtml",
-      "time": "7月13日",
-      "section": "行業動態",
-      "market": "中國",
-      "why": "有玩 AI 角色／智能體嘅，7月15後部分功能冇得用，要提早備份。"
-    },
-    {
-      "title": "上半年 17 萬篇 AI 論文，自主研究 agent 成熱點",
-      "summary": "有分析統計 2025 年至今 arXiv 已有 170,927 篇 AI 論文，2026 上半年研究重心轉向自主研究 agent 同自動科學發現。",
-      "source": "AI Papers Academy",
-      "url": "https://medium.com/@aipapers/170-927-ai-papers-reveal-the-biggest-research-shifts-of-the-first-half-of-2026-f26f3b792824",
-      "time": "7月13日",
-      "section": "論文研究",
-      "market": "國際",
-      "why": "想睇 AI 研究大方向，自動做研究係下個戰場。"
-    },
-    {
-      "title": "LLM-as-a-Verifier 多個 agent 榜刷出新高",
-      "summary": "一篇新論文提出「LLM 做審核員」思路：靠重複取樣加分數排序，喺 Terminal-Bench V2、SWE-Bench Verified 等多個 agent 榜刷到 SOTA。",
+      "title": "PrismML Bonsai 27B 壓到 3.9GB 手機都跑得",
+      "summary": "PrismML 出 Bonsai 27B（基於 Qwen 3.6），1-bit 版只需 3.9GB、Ternary 版 5.9GB，Apache 2.0 開源，仲保住多模態同工具調用，demo 喺 RTX 5090 同手機都跑到。",
       "source": "smol.ai",
-      "url": "https://news.smol.ai/issues/26-07-10-not-much/",
-      "time": "7月10日",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
+      "section": "模型發布/更新",
+      "market": "國際",
+      "why": "即刻用得，前沿級模型跑落自己部機，唔使畀雲端費又保私隱。"
+    },
+    {
+      "title": "OpenAI GPT-Live 語音 邊講邊聽識搭嘴",
+      "summary": "OpenAI 推 GPT-Live-1 同 mini，全雙工（可以同一時間邊講邊聽）語音模型，可以自然打斷、即時翻譯，仲識「mhmm」搭嘴，取代舊 Advanced Voice Mode。",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "time": "7月8日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "即刻用得，同 ChatGPT 傾偈似真人，練口語或即時翻譯掂晒。"
+    },
+    {
+      "title": "OpenAI 殺 Atlas 瀏覽器 併入 ChatGPT 超級 app",
+      "summary": "OpenAI 宣布 8月9日停用去年 10 月出嘅 Atlas 瀏覽器，功能併入新 ChatGPT app。同場推 ChatGPT Work，用 GPT-5.6 幫你跨 app 開文件、試算表、簡報。",
+      "source": "Dataconomy",
+      "url": "https://dataconomy.com/2026/07/14/openai-retires-atlas-browser-chatgpt-superapp/",
+      "time": "7月14日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "即刻用得，散亂筆記變成品，打工仔慳返做嘢時間。"
+    },
+    {
+      "title": "Claude Cowork 上埋手機同網頁",
+      "summary": "Anthropic 將 Cowork 擴到 claude.ai 網頁同 iOS／Android，先開 Max 用戶。任務喺 Anthropic 伺服器行，熄咗機都繼續做、照跑排程，逾九成用途唔係寫 code。",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/cowork-web-mobile",
+      "time": "7月13日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "即刻用得，出街用手機都開得工跟進，唔使死守住電腦。"
+    },
+    {
+      "title": "Boston Dynamics Spot 機械狗裝 Gemini 大腦",
+      "summary": "Boston Dynamics 將 Google Gemini Robotics-ER 1.6 塞入 Spot 機械狗，喺工廠環境自主決策，由人手遙控變到真正自己判斷行動。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "對美股點睇，機械人 + 前沿 AI 加速落地，睇 GOOGL 機械人線。"
+    },
+    {
+      "title": "Google Cloud 擴 Gemini Enterprise 企業 agent 工具",
+      "summary": "Google 推更多 Gemini Enterprise 工具，畀企業起同管治 AI agent，主打護欄同審計控制，衝住企業採用最大關卡。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "對美股點睇，企業 AI 落地係 GOOGL 雲業務關鍵，睇收入貢獻。"
+    },
+    {
+      "title": "Claude 出教師版兼 Reflect 用量儀表板",
+      "summary": "Anthropic 推 Claude for Teachers，全美 K-12 認證老師免費用 premium 工具兼唔攞資料訓練；另推 Reflect 儀表板，睇得晒你平時用 AI 傾咩、做咩任務。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "time": "7月13日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "即刻用得，老師慳返備課功夫，Reflect 幫你睇自己 AI 習慣。"
+    },
+    {
+      "title": "通義千問推 Fun-ASR-Realtime 首字延遲百毫秒",
+      "summary": "阿里通義發布 Fun-ASR-Realtime 實時語音識別模型，首字延遲低至百毫秒級，主打即時字幕、會議記錄等場景。",
+      "source": "梭哈AI",
+      "url": "https://www.163264.com/13698",
+      "time": "7月6日",
+      "section": "產品發布/更新",
+      "market": "中國",
+      "why": "做實時字幕、語音轉文字多個平價選擇，即刻用得。"
+    },
+    {
+      "title": "OpenMOSS 出 MOSS-VL-Realtime 睇片邊睇邊答",
+      "summary": "OpenMOSS 開源 MOSS-VL-Realtime，11B 視覺語言模型、256K 脈絡、Apache 2.0，可以持續睇實時影片流：一路睇一路答、場景變就即刻改口，證據唔夠就收聲唔亂噏。",
+      "source": "smol.ai",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
+      "section": "產品發布/更新",
+      "market": "國際",
+      "why": "即刻用得，做實時監控、直播助手嘅開源新選擇，唔使等大廠。"
+    },
+    {
+      "title": "OpenAI 擬送美國政府 5% 股份 值 $426 億",
+      "summary": "Sam Altman 提議倣阿拉斯加永久基金，將 5%（值 $42.6B）股權畀公眾持有，包裝成財富分配，時間啱啱撞正 IPO 申報同監管壓力之前。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "對美股點睇，反映 OpenAI 上市在即，AI 巨企估值再受注視。"
+    },
+    {
+      "title": "台積電 6月營收創新高 Q2 年增 36% 法說會 7月16日",
+      "summary": "台積電 6月營收 4426.8 億台幣創新高，Q2 收入 $39.62B、年增 36%，逼近財測高標；外資法說前上調目標價至 3400 元，法說會 7月16日召開。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9596199",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "台灣",
+      "why": "AI 需求硬淨撐住台積電，2330／TSM 法說係下個關鍵位。"
+    },
+    {
+      "title": "Google 限制 Meta 用 Gemini：算力先係樽頸",
+      "summary": "Google 因算力不足限制 Meta 取用 Gemini 模型，揭示「算力唔係聰明先係 AI 真正樽頸」，連巨企都要爭數據中心資源。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "對美股點睇，算力荒利好晶片同數據中心股，睇 NVDA。"
+    },
+    {
+      "title": "Anthropic 傾三星訂製晶片 擬 10月申請上市",
+      "summary": "Anthropic 同三星傾訂製 AI 晶片，準備 10月遞 S-1 上市文件，傳年化收入達 $47B 兼已經賺錢，被視為比對手乾淨嘅 IPO 人選。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "對美股點睇，AI 上市潮開始，三星晶片同記憶體股受關注。"
+    },
+    {
+      "title": "Microsoft 撥 6000 工程師搞 Frontier 落地部門",
+      "summary": "Microsoft 成立 Frontier Company，派 6000 工程師直接幫企業落地 AI，衝住「95% 企業 AI 試點零成效」痛點，戰場由模型轉去落地服務。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "國際",
+      "why": "對美股點睇，AI 由賣模型轉去賣落地服務，睇 MSFT 企業收入。"
+    },
+    {
+      "title": "DeepSeek 傳籌備 A 股 IPO 估值上望 710 億美元",
+      "summary": "彭博引消息指 DeepSeek 準備喺內地申請上市、最快明年掛牌，同時傾緊新一輪融資，估值有機會去到 US$71B。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/deepseek-mulls-new-funding-weeks-after-7-billion-round-ft-says",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "利好港股 AI 情緒，炒作升溫，睇 9988、0700。"
+    },
+    {
+      "title": "梁文鋒身家倍增至 360 億美元 登 AI 創始人首富",
+      "summary": "DeepSeek 完成新融資後，創始人梁文鋒身家由約 US$167 億翻倍至 US$360 億，登上全球 AI 大模型創始人財富榜首。",
+      "source": "新浪財經（引彭博億萬富豪指數）",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c0019084olu.html",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "反映市場畀 DeepSeek 嘅估值有幾癲，AI 情緒好熱。"
+    },
+    {
+      "title": "長鑫存儲 CXMT 上交所 IPO 7月27日掛牌",
+      "summary": "中國最大 DRAM 廠 CXMT 定價 8.66 蚊人仔，連超額配售最多募 66.6 億人仔（約 US$9.8B），7月16日開放認購，7月27日上市。",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-14/cxmt-prices-ipo-in-marquee-moment-for-china-s-chip-revolution",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "國產記憶體自主化提速，慢慢啃美光三星份額。"
+    },
+    {
+      "title": "鴻海 6月營收 8218 億年增 52% 高盛升目標價至 400 元",
+      "summary": "AI 伺服器需求續強，鴻海 6月營收 8218 億台幣、年增 52.1%，Q2 年增 39.8%；高盛維持買進、目標價喊上 400 元。",
+      "source": "科技新報",
+      "url": "https://finance.technews.tw/2026/07/07/hh-aiserver",
+      "time": "7月7日",
+      "section": "行業動態",
+      "market": "台灣",
+      "why": "想沾 AI 伺服器代工，2317 係龍頭，睇 7月營收破唔破兆。"
+    },
+    {
+      "title": "聯發科漲停創新高 2090 元 AI ASIC 全年目標倍增",
+      "summary": "聯發科天璣 9500 放量，Q2 營收 1521 億創 5 季新高；AI ASIC 全年目標倍增至 US$20 億，股價漲停 2090 元、外資喊上 2454 元。",
+      "source": "豐雲學堂",
+      "url": "https://www.sinotrade.com.tw/richclub/hotstock/",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "台灣",
+      "why": "聯發科由手機轉打 AI ASIC，2454 係新故事。"
+    },
+    {
+      "title": "豆包、通義千問 7月15日下線用戶自定義智能體",
+      "summary": "五部門《AI 擬人化互動服務管理暫行辦法》7月15日施行，字節豆包同阿里通義千問同步下線用戶自定義擬人化智能體功能。",
+      "source": "梭哈AI",
+      "url": "https://www.163264.com/13698",
+      "time": "7月15日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "你砌嘅 AI 角色而家用唔到，內地 AI 監管再收緊。"
+    },
+    {
+      "title": "DeepSeek 自研 AI 推理芯片 減少依賴英偉達華為",
+      "summary": "路透引消息指 DeepSeek 正自研 AI 推理芯片，主攻推理階段，聯絡緊芯片設計、代工同記憶體夥伴，增聘工程師，仲屬早期階段。",
+      "source": "Reuters／Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/07/08/2003860388",
+      "time": "7月8日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "大模型公司落場整芯片，長遠對 NVDA 係隱憂。"
+    },
+    {
+      "title": "世界人工智能大會 7月17-20 上海舉行 逾 300 款新品首發",
+      "summary": "2026 世界 AI 大會 7月17至20日上海舉行，習近平出席開幕；MiniMax M3、階躍 Agent 系統、全球首款 AI 智能體手機等逾 300 款新品首發。",
+      "source": "新華社",
+      "url": "https://www.news.cn/20260714/c9b02ae9afe94307a0a9ed38343627b2/c.html",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "下週密集發布，A 股港股 AI 板塊有炒作題材。"
+    },
+    {
+      "title": "港股 AI 鏈今年融資 670 億美元 27 家全鏈公司掛牌",
+      "summary": "至 7月初，逾 27 家 AI 全鏈公司喺港股上市、累計融資 US$81 億；全年港股融資達 US$670 億，恒生科技近日反彈創年內次大單日升幅。",
+      "source": "21財經",
+      "url": "https://m.21jingji.com/article/20260713/herald/96a78c00b96e916b54c00a1c9223f478.html",
+      "time": "7月13日",
+      "section": "行業動態",
+      "market": "香港",
+      "why": "錢湧入港股 AI，係估值修復訊號，睇恒生科技。"
+    },
+    {
+      "title": "智譜、MiniMax 限售股 7月解禁 面臨股東減持",
+      "summary": "曾稱「港股大模型雙雄」嘅智譜(02513.HK)與 MiniMax(00100.HK)，7月限售股集中解禁，由估值衝高轉入股東減持、價值重估。",
+      "source": "新浪財經",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c0019084olu.html",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "香港",
+      "why": "揸緊 02513、00100 要留意解禁沽壓，波動會大。"
+    },
+    {
+      "title": "宇樹科技 $6.19 億 IPO 獲上海批准",
+      "summary": "中國宇樹科技（Unitree）獲上海批准集資 $619M，主攻平價人形同四足機械人，以成本取勝再追智能差距。",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "time": "7月14日",
+      "section": "行業動態",
+      "market": "中國",
+      "why": "人形機械人板塊升溫，留意 A 股港股機械人概念股。"
+    },
+    {
+      "title": "DeepMind 數學推理攻入 IMO 頂 1%",
+      "summary": "Google DeepMind 新數學系統喺國際數學奧林匹克（IMO）難題排頂 1%，靠 AI 生成證明策略再篩選探索，論文已投 NeurIPS 2026。",
+      "source": "Skycrumbs",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026",
+      "time": "7月13日",
       "section": "論文研究",
       "market": "國際",
-      "why": "想 agent 做得準啲，用第二個模型覆核係實用一招。"
+      "why": "對美股點睇，推理能力硬淨，GOOGL AI 實力再獲背書。"
     },
     {
-      "title": "觀點：2026 由「寫 prompt」轉向「context engineering」",
-      "summary": "多篇業界指南指，2026 樽頸唔再係字眼，而係點餵啱資料、工具同記憶畀 agent；LangChain 歸納四招：write、select、compress、isolate。",
-      "source": "Sourcegraph",
-      "url": "https://sourcegraph.com/blog/context-engineering",
-      "time": "7月13日",
-      "section": "技巧與觀點",
+      "title": "Anthropic 揭 Claude 內有「全局工作空間」",
+      "summary": "Anthropic 用 J-lens 詮釋技術，喺 Claude 搵到約 25 個概念嘅內部子空間，似意識神經科學嘅全局工作空間；抽走佢多步推理即崩，可揭 AI 偷偷察覺被測試。",
+      "source": "Skycrumbs",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026",
+      "time": "7月6日",
+      "section": "論文研究",
       "market": "國際",
-      "why": "想 agent 做得好，學埋呢四招即刻用得。"
+      "why": "揀邊隻好，AI 安全可解釋性進步，長遠影響信唔信得過。"
     },
     {
-      "title": "Anthropic 數據：Cowork 逾九成用途唔係寫 code",
-      "summary": "Anthropic 睇 120 萬個 Cowork session，發現逾九成用途唔係寫 code，而係業務運營同做內容；單係業務運營就占 33.4%，好似砌報告、對數。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
-      "time": "7月7日",
+      "title": "Perplexity 開源 WANDR：500 條真研究任務嘅評測",
+      "summary": "Perplexity 開源 WANDR，用 500 條去識別化嘅真實研究任務砌 benchmark，要 17 萬條有出處嘅記錄；唔係死對標準答案，而係重新抓返引用網頁核對，貼近真實網研。",
+      "source": "smol.ai",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
+      "section": "論文研究",
+      "market": "國際",
+      "why": "揀邊隻好，評測愈貼真實，揀 AI 做深度 research 有得參考。"
+    },
+    {
+      "title": "研究：中國將官方敘事嵌入 AI 模型 隨出口輸出海外",
+      "summary": "中央社引研究指，多款中國國產大模型內建官方敘事同內容審查，隨模型出口將管控帶去海外，引發輸出地資訊自由疑慮。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/ait/202607140336.aspx",
+      "time": "7月14日",
+      "section": "論文研究",
+      "market": "中國",
+      "why": "用國產模型要留意內容偏向，查證要對多個源。"
+    },
+    {
+      "title": "swyx 警告：過時 agents.md 等於自我 prompt injection",
+      "summary": "swyx 指過時嘅 agents.md 指令會好似自己攻擊自己（self-inflicted prompt injection），令長任務 agent 卡住幾個鐘。業界共識：模型夠勁已經唔夠，harness 質素同可觀測性先係差異化。",
+      "source": "smol.ai",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
       "section": "技巧與觀點",
       "market": "國際",
-      "why": "唔識 code 都用得，拎去砌報告對數啱晒。"
+      "why": "即刻用得，用 Codex／Claude Code 記得定期清走過時嘅指令檔。"
+    },
+    {
+      "title": "LangSmith 加埋 Codex、Cursor 追蹤 睇得晒 agent 做咩",
+      "summary": "LangChain 喺 LangSmith 加咗對 Codex 嘅追蹤，之後擴到 Cursor、Copilot、Pi、OpenCode，攤開晒每個工具調用、子 agent 同 token 用量，方便 debug 長任務。",
+      "source": "smol.ai",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "time": "7月14日",
+      "section": "技巧與觀點",
+      "market": "國際",
+      "why": "即刻用得，agent 行到中途卡住，而家睇得到係邊步出事。"
     }
   ]
 }
